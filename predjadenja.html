@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const langEl = document.querySelector('.langWrap');
+		const link = document.querySelectorAll('a');
+
+		const Predjadenjaitem1El = document.querySelector('.Predjadenjaitem1');
+        const Predjadenjacena1El = document.querySelector('.Predjadenjacena1');
+
+        const Predjadenjaitem2El = document.querySelector('.Predjadenjaitem2');
+        const Predjadenjacena2El = document.querySelector('.Predjadenjacena2');
+
+        const Predjadenjaitem3El = document.querySelector('.Predjadenjaitem3');
+        const Predjadenjacena3El = document.querySelector('.Predjadenjacena3');
+
+        const Predjadenjaitem4El = document.querySelector('.Predjadenjaitem4');
+        const Predjadenjacena4El = document.querySelector('.Predjadenjacena4');
+
+        const Predjadenjaitem5El = document.querySelector('.Predjadenjaitem5');
+        const Predjadenjacena5El = document.querySelector('.Predjadenjacena5');
+
+        const Predjadenjaitem6El = document.querySelector('.Predjadenjaitem6');
+        const Predjadenjacena6El = document.querySelector('.Predjadenjacena6');
+
+        const Predjadenjaitem7El = document.querySelector('.Predjadenjaitem7');
+        const Predjadenjacena7El = document.querySelector('.Predjadenjacena7');
+
+        const Predjadenjaitem8El = document.querySelector('.Predjadenjaitem8');
+        const Predjadenjacena8El = document.querySelector('.Predjadenjacena8');
+
+        const Predjadenjaitem9El = document.querySelector('.Predjadenjaitem9');
+        const Predjadenjacena9El = document.querySelector('.Predjadenjacena9');
+
+        const Predjadenjaitem10El = document.querySelector('.Predjadenjaitem10');
+        const Predjadenjacena10El = document.querySelector('.Predjadenjacena10');
+
+
+		link.forEach(el => {
+			el.addEventListener('click', () => {
+				langEl.querySelector('.active').classList.remove('active');
+				el.classList.add('active');
+
+				const attr = el.getAttribute('language');
+
+				Predjadenjaitem1El.textContent = data[attr].Predjadenjaitem1;
+                Predjadenjacena1El.textContent = data[attr].Predjadenjacena1;
+
+                Predjadenjaitem2El.textContent = data[attr].Predjadenjaitem2;
+                Predjadenjacena2El.textContent = data[attr].Predjadenjacena2;
+
+                Predjadenjaitem3El.textContent = data[attr].Predjadenjaitem3;
+                Predjadenjacena3El.textContent = data[attr].Predjadenjacena3;
+
+                Predjadenjaitem4El.textContent = data[attr].Predjadenjaitem4;
+                Predjadenjacena4El.textContent = data[attr].Predjadenjacena4;
+
+                Predjadenjaitem5El.textContent = data[attr].Predjadenjaitem5;
+                Predjadenjacena5El.textContent = data[attr].Predjadenjacena5;
+
+                Predjadenjaitem6El.textContent = data[attr].Predjadenjaitem6;
+                Predjadenjacena6El.textContent = data[attr].Predjadenjacena6;
+
+                Predjadenjaitem7El.textContent = data[attr].Predjadenjaitem7;
+                Predjadenjacena7El.textContent = data[attr].Predjadenjacena7;
+
+                Predjadenjaitem8El.textContent = data[attr].Predjadenjaitem8;
+                Predjadenjacena8El.textContent = data[attr].Predjadenjacena8;
+
+                Predjadenjaitem9El.textContent = data[attr].Predjadenjaitem9;
+                Predjadenjacena9El.textContent = data[attr].Predjadenjacena9;
+
+                Predjadenjaitem10El.textContent = data[attr].Predjadenjaitem10;
+                Predjadenjacena10El.textContent = data[attr].Predjadenjacena10;
+			});
+		});
+		
+		var data = {
+			  "english": 
+			  {
+                "Predjadenjaitem1": "",
+                "Predjadenjacena1": "",
+
+                "Predjadenjaitem2": "",
+                "Predjadenjacena2": "",
+
+                "Predjadenjaitem3": "",
+                "Predjadenjacena3": "",
+
+                "Predjadenjaitem4": "",
+                "Predjadenjacena4": "",
+
+                "Predjadenjaitem5": "",
+                "Predjadenjacena5": "",
+
+                "Predjadenjaitem6": "",
+                "Predjadenjacena6": "",
+
+                "Predjadenjaitem7": "",
+                "Predjadenjacena7": "",
+
+                "Predjadenjaitem8": "",
+                "Predjadenjacena8": "",
+
+                "Predjadenjaitem9": "",
+                "Predjadenjacena9": "",
+
+                "Predjadenjaitem10": "",
+                "Predjadenjacena10": "",
+			  },
+			  "MK": 
+			  {
+                "Predjadenjaitem1": "",
+                "Predjadenjacena1": "",
+
+                "Predjadenjaitem2": "",
+                "Predjadenjacena2": "",
+
+                "Predjadenjaitem3": "",
+                "Predjadenjacena3": "",
+
+                "Predjadenjaitem4": "",
+                "Predjadenjacena4": "",
+
+                "Predjadenjaitem5": "",
+                "Predjadenjacena5": "",
+
+                "Predjadenjaitem6": "",
+                "Predjadenjacena6": "",
+
+                "Predjadenjaitem7": "",
+                "Predjadenjacena7": "",
+
+                "Predjadenjaitem8": "",
+                "Predjadenjacena8": "",
+
+                "Predjadenjaitem9": "",
+                "Predjadenjacena9": "",
+
+                "Predjadenjaitem10": "",
+                "Predjadenjacena10": "",
+			}
+        }
+    </script>
+</body>
+</html>
+    
+    

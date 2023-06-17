@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const langEl = document.querySelector('.langWrap');
+		const link = document.querySelectorAll('a');
+
+		const Bezalkoholniitem1El = document.querySelector('.Bezalkoholniitem1');
+        const Bezalkoholnicena1El = document.querySelector('.Bezalkoholnicena1');
+
+        const Bezalkoholniitem2El = document.querySelector('.Bezalkoholniitem2');
+        const Bezalkoholnicena2El = document.querySelector('.Bezalkoholnicena2');
+
+        const Bezalkoholniitem3El = document.querySelector('.Bezalkoholniitem3');
+        const Bezalkoholnicena3El = document.querySelector('.Bezalkoholnicena3');
+
+        const Bezalkoholniitem4El = document.querySelector('.Bezalkoholniitem4');
+        const Bezalkoholnicena4El = document.querySelector('.Bezalkoholnicena4');
+
+        const Bezalkoholniitem5El = document.querySelector('.Bezalkoholniitem5');
+        const Bezalkoholnicena5El = document.querySelector('.Bezalkoholnicena5');
+
+        const Bezalkoholniitem6El = document.querySelector('.Bezalkoholniitem6');
+        const Bezalkoholnicena6El = document.querySelector('.Bezalkoholnicena6');
+
+        const Bezalkoholniitem7El = document.querySelector('.Bezalkoholniitem7');
+        const Bezalkoholnicena7El = document.querySelector('.Bezalkoholnicena7');
+
+        const Bezalkoholniitem8El = document.querySelector('.Bezalkoholniitem8');
+        const Bezalkoholnicena8El = document.querySelector('.Bezalkoholnicena8');
+
+        const Bezalkoholniitem9El = document.querySelector('.Bezalkoholniitem9');
+        const Bezalkoholnicena9El = document.querySelector('.Bezalkoholnicena9');
+
+        const Bezalkoholniitem10El = document.querySelector('.Bezalkoholniitem10');
+        const Bezalkoholnicena10El = document.querySelector('.Bezalkoholnicena10');
+
+        const Bezalkoholniitem11El = document.querySelector('.Bezalkoholniitem11');
+        const Bezalkoholnicena11El = document.querySelector('.Bezalkoholnicena11');
+
+        const Bezalkoholniitem12El = document.querySelector('.Bezalkoholniitem12');
+        const Bezalkoholnicena12El = document.querySelector('.Bezalkoholnicena12');
+
+        const Bezalkoholniitem13El = document.querySelector('.Bezalkoholniitem13');
+        const Bezalkoholnicena13El = document.querySelector('.Bezalkoholnicena13');
+
+        const Bezalkoholniitem14El = document.querySelector('.Bezalkoholniitem14');
+        const Bezalkoholnicena14El = document.querySelector('.Bezalkoholnicena14');
+
+
+		link.forEach(el => {
+			el.addEventListener('click', () => {
+				langEl.querySelector('.active').classList.remove('active');
+				el.classList.add('active');
+
+				const attr = el.getAttribute('language');
+
+				Bezalkoholniitem1El.textContent = data[attr].Bezalkoholniitem1;
+                Bezalkoholnicena1El.textContent = data[attr].Bezalkoholnicena1;
+
+                Bezalkoholniitem2El.textContent = data[attr].Bezalkoholniitem2;
+                Bezalkoholnicena2El.textContent = data[attr].Bezalkoholnicena2;
+
+                Bezalkoholniitem3El.textContent = data[attr].Bezalkoholniitem3;
+                Bezalkoholnicena3El.textContent = data[attr].Bezalkoholnicena3;
+
+                Bezalkoholniitem4El.textContent = data[attr].Bezalkoholniitem4;
+                Bezalkoholnicena4El.textContent = data[attr].Bezalkoholnicena4;
+
+                Bezalkoholniitem5El.textContent = data[attr].Bezalkoholniitem5;
+                Bezalkoholnicena5El.textContent = data[attr].Bezalkoholnicena5;
+
+                Bezalkoholniitem6El.textContent = data[attr].Bezalkoholniitem6;
+                Bezalkoholnicena6El.textContent = data[attr].Bezalkoholnicena6;
+
+                Bezalkoholniitem7El.textContent = data[attr].Bezalkoholniitem7;
+                Bezalkoholnicena7El.textContent = data[attr].Bezalkoholnicena7;
+
+                Bezalkoholniitem8El.textContent = data[attr].Bezalkoholniitem8;
+                Bezalkoholnicena8El.textContent = data[attr].Bezalkoholnicena8;
+
+                Bezalkoholniitem9El.textContent = data[attr].Bezalkoholniitem9;
+                Bezalkoholnicena9El.textContent = data[attr].Bezalkoholnicena9;
+
+                Bezalkoholniitem10El.textContent = data[attr].Bezalkoholniitem10;
+                Bezalkoholnicena10El.textContent = data[attr].Bezalkoholnicena10;
+
+                Bezalkoholniitem11El.textContent = data[attr].Bezalkoholniitem11;
+                Bezalkoholnicena11El.textContent = data[attr].Bezalkoholnicena11;
+
+                Bezalkoholniitem12El.textContent = data[attr].Bezalkoholniitem12;
+                Bezalkoholnicena12El.textContent = data[attr].Bezalkoholnicena12;
+
+                Bezalkoholniitem13El.textContent = data[attr].Bezalkoholniitem13;
+                Bezalkoholnicena13El.textContent = data[attr].Bezalkoholnicena13;
+
+                Bezalkoholniitem14El.textContent = data[attr].Bezalkoholniitem14;
+                Bezalkoholnicena14El.textContent = data[attr].Bezalkoholnicena14;
+			});
+		});
+		
+		var data = {
+			  "english": 
+			  {
+                "Bezalkoholniitem1": "",
+                "Bezalkoholnicena1": "",
+
+                "Bezalkoholniitem2": "",
+                "Bezalkoholnicena2": "",
+
+                "Bezalkoholniitem3": "",
+                "Bezalkoholnicena3": "",
+
+                "Bezalkoholniitem4": "",
+                "Bezalkoholnicena4": "",
+
+                "Bezalkoholniitem5": "",
+                "Bezalkoholnicena5": "",
+
+                "Bezalkoholniitem6": "",
+                "Bezalkoholnicena6": "",
+
+                "Bezalkoholniitem7": "",
+                "Bezalkoholnicena7": "",
+
+                "Bezalkoholniitem8": "",
+                "Bezalkoholnicena8": "",
+
+                "Bezalkoholniitem9": "",
+                "Bezalkoholnicena9": "",
+
+                "Bezalkoholniitem10": "",
+                "Bezalkoholnicena10": "",
+
+                "Bezalkoholniitem11": "",
+                "Bezalkoholnicena11": "",
+
+                "Bezalkoholniitem12": "",
+                "Bezalkoholnicena12": "",
+
+                "Bezalkoholniitem13": "",
+                "Bezalkoholnicena13": "",
+
+                "Bezalkoholniitem14": "",
+                "Bezalkoholnicena14": "",
+			  },
+			  "MK": 
+			  {
+                "Bezalkoholniitem1": "",
+                "Bezalkoholnicena1": "",
+
+                "Bezalkoholniitem2": "",
+                "Bezalkoholnicena2": "",
+
+                "Bezalkoholniitem3": "",
+                "Bezalkoholnicena3": "",
+
+                "Bezalkoholniitem4": "",
+                "Bezalkoholnicena4": "",
+
+                "Bezalkoholniitem5": "",
+                "Bezalkoholnicena5": "",
+
+                "Bezalkoholniitem6": "",
+                "Bezalkoholnicena6": "",
+
+                "Bezalkoholniitem7": "",
+                "Bezalkoholnicena7": "",
+
+                "Bezalkoholniitem8": "",
+                "Bezalkoholnicena8": "",
+
+                "Bezalkoholniitem9": "",
+                "Bezalkoholnicena9": "",
+
+                "Bezalkoholniitem10": "",
+                "Bezalkoholnicena10": "",
+
+                "Bezalkoholniitem11": "",
+                "Bezalkoholnicena11": "",
+
+                "Bezalkoholniitem12": "",
+                "Bezalkoholnicena12": "",
+
+                "Bezalkoholniitem13": "",
+                "Bezalkoholnicena13": "",
+
+                "Bezalkoholniitem14": "",
+                "Bezalkoholnicena14": "",
+			}
+        }
+    </script>
+</body>
+</html>
+    
+    

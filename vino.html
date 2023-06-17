@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const langEl = document.querySelector('.langWrap');
+		const link = document.querySelectorAll('a');
+
+		const Vinoitem1El = document.querySelector('.Vinoitem1');
+        const Vinocena1El = document.querySelector('.Vinocena1');
+
+        const Vinoitem2El = document.querySelector('.Vinoitem2');
+        const Vinocena2El = document.querySelector('.Vinocena2');
+
+        const Vinoitem3El = document.querySelector('.Vinoitem3');
+        const Vinocena3El = document.querySelector('.Vinocena3');
+
+        const Vinoitem4El = document.querySelector('.Vinoitem4');
+        const Vinocena4El = document.querySelector('.Vinocena4');
+
+        const Vinoitem5El = document.querySelector('.Vinoitem5');
+        const Vinocena5El = document.querySelector('.Vinocena5');
+
+        const Vinoitem6El = document.querySelector('.Vinoitem6');
+        const Vinocena6El = document.querySelector('.Vinocena6');
+
+        const Vinoitem7El = document.querySelector('.Vinoitem7');
+        const Vinocena7El = document.querySelector('.Vinocena7');
+
+        const Vinoitem8El = document.querySelector('.Vinoitem8');
+        const Vinocena8El = document.querySelector('.Vinocena8');
+
+        const Vinoitem9El = document.querySelector('.Vinoitem9');
+        const Vinocena9El = document.querySelector('.Vinocena9');
+
+        const Vinoitem10El = document.querySelector('.Vinoitem10');
+        const Vinocena10El = document.querySelector('.Vinocena10');
+
+
+		link.forEach(el => {
+			el.addEventListener('click', () => {
+				langEl.querySelector('.active').classList.remove('active');
+				el.classList.add('active');
+
+				const attr = el.getAttribute('language');
+
+				Vinoitem1El.textContent = data[attr].Vinoitem1;
+                Vinocena1El.textContent = data[attr].Vinocena1;
+
+                Vinoitem2El.textContent = data[attr].Vinoitem2;
+                Vinocena2El.textContent = data[attr].Vinocena2;
+
+                Vinoitem3El.textContent = data[attr].Vinoitem3;
+                Vinocena3El.textContent = data[attr].Vinocena3;
+
+                Vinoitem4El.textContent = data[attr].Vinoitem4;
+                Vinocena4El.textContent = data[attr].Vinocena4;
+
+                Vinoitem5El.textContent = data[attr].Vinoitem5;
+                Vinocena5El.textContent = data[attr].Vinocena5;
+
+                Vinoitem6El.textContent = data[attr].Vinoitem6;
+                Vinocena6El.textContent = data[attr].Vinocena6;
+
+                Vinoitem7El.textContent = data[attr].Vinoitem7;
+                Vinocena7El.textContent = data[attr].Vinocena7;
+
+                Vinoitem8El.textContent = data[attr].Vinoitem8;
+                Vinocena8El.textContent = data[attr].Vinocena8;
+
+                Vinoitem9El.textContent = data[attr].Vinoitem9;
+                Vinocena9El.textContent = data[attr].Vinocena9;
+
+                Vinoitem10El.textContent = data[attr].Vinoitem10;
+                Vinocena10El.textContent = data[attr].Vinocena10;
+			});
+		});
+		
+		var data = {
+			  "english": 
+			  {
+                "Vinoitem1": "",
+                "Vinocena1": "",
+
+                "Vinoitem2": "",
+                "Vinocena2": "",
+
+                "Vinoitem3": "",
+                "Vinocena3": "",
+
+                "Vinoitem4": "",
+                "Vinocena4": "",
+
+                "Vinoitem5": "",
+                "Vinocena5": "",
+
+                "Vinoitem6": "",
+                "Vinocena6": "",
+
+                "Vinoitem7": "",
+                "Vinocena7": "",
+
+                "Vinoitem8": "",
+                "Vinocena8": "",
+
+                "Vinoitem9": "",
+                "Vinocena9": "",
+
+                "Vinoitem10": "",
+                "Vinocena10": "",
+			  },
+			  "MK": 
+			  {
+                "Vinoitem1": "",
+                "Vinocena1": "",
+
+                "Vinoitem2": "",
+                "Vinocena2": "",
+
+                "Vinoitem3": "",
+                "Vinocena3": "",
+
+                "Vinoitem4": "",
+                "Vinocena4": "",
+
+                "Vinoitem5": "",
+                "Vinocena5": "",
+
+                "Vinoitem6": "",
+                "Vinocena6": "",
+
+                "Vinoitem7": "",
+                "Vinocena7": "",
+
+                "Vinoitem8": "",
+                "Vinocena8": "",
+
+                "Vinoitem9": "",
+                "Vinocena9": "",
+
+                "Vinoitem10": "",
+                "Vinocena10": "",
+			}
+        }
+    </script>
+</body>
+</html>
+    
+    

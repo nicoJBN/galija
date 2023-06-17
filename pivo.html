@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const langEl = document.querySelector('.langWrap');
+		const link = document.querySelectorAll('a');
+
+		const Pivoitem1El = document.querySelector('.Pivoitem1');
+        const Pivocena1El = document.querySelector('.Pivocena1');
+
+        const Pivoitem2El = document.querySelector('.Pivoitem2');
+        const Pivocena2El = document.querySelector('.Pivocena2');
+
+        const Pivoitem3El = document.querySelector('.Pivoitem3');
+        const Pivocena3El = document.querySelector('.Pivocena3');
+
+        const Pivoitem4El = document.querySelector('.Pivoitem4');
+        const Pivocena4El = document.querySelector('.Pivocena4');
+
+        const Pivoitem5El = document.querySelector('.Pivoitem5');
+        const Pivocena5El = document.querySelector('.Pivocena5');
+
+        const Pivoitem6El = document.querySelector('.Pivoitem6');
+        const Pivocena6El = document.querySelector('.Pivocena6');
+
+        const Pivoitem7El = document.querySelector('.Pivoitem7');
+        const Pivocena7El = document.querySelector('.Pivocena7');
+
+        const Pivoitem8El = document.querySelector('.Pivoitem8');
+        const Pivocena8El = document.querySelector('.Pivocena8');
+
+        const Pivoitem9El = document.querySelector('.Pivoitem9');
+        const Pivocena9El = document.querySelector('.Pivocena9');
+
+        const Pivoitem10El = document.querySelector('.Pivoitem10');
+        const Pivocena10El = document.querySelector('.Pivocena10');
+
+        const Pivoitem11El = document.querySelector('.Pivoitem11');
+        const Pivocena11El = document.querySelector('.Pivocena11');
+
+
+		link.forEach(el => {
+			el.addEventListener('click', () => {
+				langEl.querySelector('.active').classList.remove('active');
+				el.classList.add('active');
+
+				const attr = el.getAttribute('language');
+
+				Pivoitem1El.textContent = data[attr].Pivoitem1;
+                Pivocena1El.textContent = data[attr].Pivocena1;
+
+                Pivoitem2El.textContent = data[attr].Pivoitem2;
+                Pivocena2El.textContent = data[attr].Pivocena2;
+
+                Pivoitem3El.textContent = data[attr].Pivoitem3;
+                Pivocena3El.textContent = data[attr].Pivocena3;
+
+                Pivoitem4El.textContent = data[attr].Pivoitem4;
+                Pivocena4El.textContent = data[attr].Pivocena4;
+
+                Pivoitem5El.textContent = data[attr].Pivoitem5;
+                Pivocena5El.textContent = data[attr].Pivocena5;
+
+                Pivoitem6El.textContent = data[attr].Pivoitem6;
+                Pivocena6El.textContent = data[attr].Pivocena6;
+
+                Pivoitem7El.textContent = data[attr].Pivoitem7;
+                Pivocena7El.textContent = data[attr].Pivocena7;
+
+                Pivoitem8El.textContent = data[attr].Pivoitem8;
+                Pivocena8El.textContent = data[attr].Pivocena8;
+
+                Pivoitem9El.textContent = data[attr].Pivoitem9;
+                Pivocena9El.textContent = data[attr].Pivocena9;
+
+                Pivoitem10El.textContent = data[attr].Pivoitem10;
+                Pivocena10El.textContent = data[attr].Pivocena10;
+
+                Pivoitem11El.textContent = data[attr].Pivoitem11;
+                Pivocena11El.textContent = data[attr].Pivocena11;
+			});
+		});
+		
+		var data = {
+			  "english": 
+			  {
+                "Pivoitem1": "",
+                "Pivocena1": "",
+
+                "Pivoitem2": "",
+                "Pivocena2": "",
+
+                "Pivoitem3": "",
+                "Pivocena3": "",
+
+                "Pivoitem4": "",
+                "Pivocena4": "",
+
+                "Pivoitem5": "",
+                "Pivocena5": "",
+
+                "Pivoitem6": "",
+                "Pivocena6": "",
+
+                "Pivoitem7": "",
+                "Pivocena7": "",
+
+                "Pivoitem8": "",
+                "Pivocena8": "",
+
+                "Pivoitem9": "",
+                "Pivocena9": "",
+
+                "Pivoitem10": "",
+                "Pivocena10": "",
+
+                "Pivoitem11": "",
+                "Pivocena11": "",
+			  },
+			  "MK": 
+			  {
+                "Pivoitem1": "",
+                "Pivocena1": "",
+
+                "Pivoitem2": "",
+                "Pivocena2": "",
+
+                "Pivoitem3": "",
+                "Pivocena3": "",
+
+                "Pivoitem4": "",
+                "Pivocena4": "",
+
+                "Pivoitem5": "",
+                "Pivocena5": "",
+
+                "Pivoitem6": "",
+                "Pivocena6": "",
+
+                "Pivoitem7": "",
+                "Pivocena7": "",
+
+                "Pivoitem8": "",
+                "Pivocena8": "",
+
+                "Pivoitem9": "",
+                "Pivocena9": "",
+
+                "Pivoitem10": "",
+                "Pivocena10": "",
+
+                "Pivoitem11": "",
+                "Pivocena11": "",
+			}
+        }
+    </script>
+</body>
+</html>
+    
+    

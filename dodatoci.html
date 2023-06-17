@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const langEl = document.querySelector('.langWrap');
+		const link = document.querySelectorAll('a');
+
+		const Dodatociitem1El = document.querySelector('.Dodatociitem1');
+        const Dodatocicena1El = document.querySelector('.Dodatocicena1');
+
+        const Dodatociitem2El = document.querySelector('.Dodatociitem2');
+        const Dodatocicena2El = document.querySelector('.Dodatocicena2');
+
+        const Dodatociitem3El = document.querySelector('.Dodatociitem3');
+        const Dodatocicena3El = document.querySelector('.Dodatocicena3');
+
+        const Dodatociitem4El = document.querySelector('.Dodatociitem4');
+        const Dodatocicena4El = document.querySelector('.Dodatocicena4');
+
+        const Dodatociitem5El = document.querySelector('.Dodatociitem5');
+        const Dodatocicena5El = document.querySelector('.Dodatocicena5');
+
+
+		link.forEach(el => {
+			el.addEventListener('click', () => {
+				langEl.querySelector('.active').classList.remove('active');
+				el.classList.add('active');
+
+				const attr = el.getAttribute('language');
+
+				Dodatociitem1El.textContent = data[attr].Dodatociitem1;
+                Dodatocicena1El.textContent = data[attr].Dodatocicena1;
+
+                Dodatociitem2El.textContent = data[attr].Dodatociitem2;
+                Dodatocicena2El.textContent = data[attr].Dodatocicena2;
+
+                Dodatociitem3El.textContent = data[attr].Dodatociitem3;
+                Dodatocicena3El.textContent = data[attr].Dodatocicena3;
+
+                Dodatociitem4El.textContent = data[attr].Dodatociitem4;
+                Dodatocicena4El.textContent = data[attr].Dodatocicena4;
+
+                Dodatociitem5El.textContent = data[attr].Dodatociitem5;
+                Dodatocicena5El.textContent = data[attr].Dodatocicena5;
+			});
+		});
+		
+		var data = {
+			  "english": 
+			  {
+                "Dodatociitem1": "",
+                "Dodatocicena1": "",
+
+                "Dodatociitem2": "",
+                "Dodatocicena2": "",
+
+                "Dodatociitem3": "",
+                "Dodatocicena3": "",
+
+                "Dodatociitem4": "",
+                "Dodatocicena4": "",
+
+                "Dodatociitem5": "",
+                "Dodatocicena5": "",
+			  },
+			  "MK": 
+			  {
+                "Dodatociitem1": "",
+                "Dodatocicena1": "",
+
+                "Dodatociitem2": "",
+                "Dodatocicena2": "",
+
+                "Dodatociitem3": "",
+                "Dodatocicena3": "",
+
+                "Dodatociitem4": "",
+                "Dodatocicena4": "",
+
+                "Dodatociitem5": "",
+                "Dodatocicena5": "",
+			}
+        }
+    </script>
+</body>
+</html>
+    
+    

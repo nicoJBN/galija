@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const langEl = document.querySelector('.langWrap');
+		const link = document.querySelectorAll('a');
+
+		const Dorucekitem1El = document.querySelector('.Dorucekitem1');
+        const Dorucekcena1El = document.querySelector('.Dorucekcena1');
+
+        const Dorucekitem2El = document.querySelector('.Dorucekitem2');
+        const Dorucekcena2El = document.querySelector('.Dorucekcena2');
+
+        const Dorucekitem3El = document.querySelector('.Dorucekitem3');
+        const Dorucekcena3El = document.querySelector('.Dorucekcena3');
+
+        const Dorucekitem4El = document.querySelector('.Dorucekitem4');
+        const Dorucekcena4El = document.querySelector('.Dorucekcena4');
+
+        const Dorucekitem5El = document.querySelector('.Dorucekitem5');
+        const Dorucekcena5El = document.querySelector('.Dorucekcena5');
+
+        const Dorucekitem6El = document.querySelector('.Dorucekitem6');
+        const Dorucekcena6El = document.querySelector('.Dorucekcena6');
+
+        const Dorucekitem7El = document.querySelector('.Dorucekitem7');
+        const Dorucekcena7El = document.querySelector('.Dorucekcena7');
+
+
+		link.forEach(el => {
+			el.addEventListener('click', () => {
+				langEl.querySelector('.active').classList.remove('active');
+				el.classList.add('active');
+
+				const attr = el.getAttribute('language');
+
+				Dorucekitem1El.textContent = data[attr].Dorucekitem1;
+                Dorucekcena1El.textContent = data[attr].Dorucekcena1;
+
+                Dorucekitem2El.textContent = data[attr].Dorucekitem2;
+                Dorucekcena2El.textContent = data[attr].Dorucekcena2;
+
+                Dorucekitem3El.textContent = data[attr].Dorucekitem3;
+                Dorucekcena3El.textContent = data[attr].Dorucekcena3;
+
+                Dorucekitem4El.textContent = data[attr].Dorucekitem4;
+                Dorucekcena4El.textContent = data[attr].Dorucekcena4;
+
+                Dorucekitem5El.textContent = data[attr].Dorucekitem5;
+                Dorucekcena5El.textContent = data[attr].Dorucekcena5;
+
+                Dorucekitem6El.textContent = data[attr].Dorucekitem6;
+                Dorucekcena6El.textContent = data[attr].Dorucekcena6;
+
+                Dorucekitem7El.textContent = data[attr].Dorucekitem7;
+                Dorucekcena7El.textContent = data[attr].Dorucekcena7;
+			});
+		});
+		
+		var data = {
+			  "english": 
+			  {
+                "Dorucekitem1": "",
+                "Dorucekcena1": "",
+
+                "Dorucekitem2": "",
+                "Dorucekcena2": "",
+
+                "Dorucekitem3": "",
+                "Dorucekcena3": "",
+
+                "Dorucekitem4": "",
+                "Dorucekcena4": "",
+
+                "Dorucekitem5": "",
+                "Dorucekcena5": "",
+
+                "Dorucekitem6": "",
+                "Dorucekcena6": "",
+
+                "Dorucekitem7": "",
+                "Dorucekcena7": "",
+			  },
+			  "MK": 
+			  {
+                "Dorucekitem1": "",
+                "Dorucekcena1": "",
+
+                "Dorucekitem2": "",
+                "Dorucekcena2": "",
+
+                "Dorucekitem3": "",
+                "Dorucekcena3": "",
+
+                "Dorucekitem4": "",
+                "Dorucekcena4": "",
+
+                "Dorucekitem5": "",
+                "Dorucekcena5": "",
+
+                "Dorucekitem6": "",
+                "Dorucekcena6": "",
+
+                "Dorucekitem7": "",
+                "Dorucekcena7": "",
+			}
+        }
+    </script>
+</body>
+</html>

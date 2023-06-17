@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const langEl = document.querySelector('.langWrap');
+		const link = document.querySelectorAll('a');
+
+		const Salatiitem1El = document.querySelector('.Salatiitem1');
+        const Salaticena1El = document.querySelector('.Salaticena1');
+
+        const Salatiitem2El = document.querySelector('.Salatiitem2');
+        const Salaticena2El = document.querySelector('.Salaticena2');
+
+        const Salatiitem3El = document.querySelector('.Salatiitem3');
+        const Salaticena3El = document.querySelector('.Salaticena3');
+
+        const Salatiitem4El = document.querySelector('.Salatiitem4');
+        const Salaticena4El = document.querySelector('.Salaticena4');
+
+        const Salatiitem5El = document.querySelector('.Salatiitem5');
+        const Salaticena5El = document.querySelector('.Salaticena5');
+
+        const Salatiitem6El = document.querySelector('.Salatiitem6');
+        const Salaticena6El = document.querySelector('.Salaticena6');
+
+        const Salatiitem7El = document.querySelector('.Salatiitem7');
+        const Salaticena7El = document.querySelector('.Salaticena7');
+
+        const Salatiitem8El = document.querySelector('.Salatiitem8');
+        const Salaticena8El = document.querySelector('.Salaticena8');
+
+        const Salatiitem9El = document.querySelector('.Salatiitem9');
+        const Salaticena9El = document.querySelector('.Salaticena9');
+
+        const Salatiitem10El = document.querySelector('.Salatiitem10');
+        const Salaticena10El = document.querySelector('.Salaticena10');
+
+        const Salatiitem11El = document.querySelector('.Salatiitem11');
+        const Salaticena11El = document.querySelector('.Salaticena11');
+
+        const Salatiitem12El = document.querySelector('.Salatiitem12');
+        const Salaticena12El = document.querySelector('.Salaticena12');
+
+        const Salatiitem13El = document.querySelector('.Salatiitem13');
+        const Salaticena13El = document.querySelector('.Salaticena13');
+
+        const Salatiitem14El = document.querySelector('.Salatiitem14');
+        const Salaticena14El = document.querySelector('.Salaticena14');
+
+
+		link.forEach(el => {
+			el.addEventListener('click', () => {
+				langEl.querySelector('.active').classList.remove('active');
+				el.classList.add('active');
+
+				const attr = el.getAttribute('language');
+
+				Salatiitem1El.textContent = data[attr].Salatiitem1;
+                Salaticena1El.textContent = data[attr].Salaticena1;
+
+                Salatiitem2El.textContent = data[attr].Salatiitem2;
+                Salaticena2El.textContent = data[attr].Salaticena2;
+
+                Salatiitem3El.textContent = data[attr].Salatiitem3;
+                Salaticena3El.textContent = data[attr].Salaticena3;
+
+                Salatiitem4El.textContent = data[attr].Salatiitem4;
+                Salaticena4El.textContent = data[attr].Salaticena4;
+
+                Salatiitem5El.textContent = data[attr].Salatiitem5;
+                Salaticena5El.textContent = data[attr].Salaticena5;
+
+                Salatiitem6El.textContent = data[attr].Salatiitem6;
+                Salaticena6El.textContent = data[attr].Salaticena6;
+
+                Salatiitem7El.textContent = data[attr].Salatiitem7;
+                Salaticena7El.textContent = data[attr].Salaticena7;
+
+                Salatiitem8El.textContent = data[attr].Salatiitem8;
+                Salaticena8El.textContent = data[attr].Salaticena8;
+
+                Salatiitem9El.textContent = data[attr].Salatiitem9;
+                Salaticena9El.textContent = data[attr].Salaticena9;
+
+                Salatiitem10El.textContent = data[attr].Salatiitem10;
+                Salaticena10El.textContent = data[attr].Salaticena10;
+
+                Salatiitem11El.textContent = data[attr].Salatiitem11;
+                Salaticena11El.textContent = data[attr].Salaticena11;
+
+                Salatiitem12El.textContent = data[attr].Salatiitem12;
+                Salaticena12El.textContent = data[attr].Salaticena12;
+
+                Salatiitem13El.textContent = data[attr].Salatiitem13;
+                Salaticena13El.textContent = data[attr].Salaticena13;
+
+                Salatiitem14El.textContent = data[attr].Salatiitem14;
+                Salaticena14El.textContent = data[attr].Salaticena14;
+			});
+		});
+		
+		var data = {
+			  "english": 
+			  {
+                "Salatiitem1": "",
+                "Salaticena1": "",
+
+                "Salatiitem2": "",
+                "Salaticena2": "",
+
+                "Salatiitem3": "",
+                "Salaticena3": "",
+
+                "Salatiitem4": "",
+                "Salaticena4": "",
+
+                "Salatiitem5": "",
+                "Salaticena5": "",
+
+                "Salatiitem6": "",
+                "Salaticena6": "",
+
+                "Salatiitem7": "",
+                "Salaticena7": "",
+
+                "Salatiitem8": "",
+                "Salaticena8": "",
+
+                "Salatiitem9": "",
+                "Salaticena9": "",
+
+                "Salatiitem10": "",
+                "Salaticena10": "",
+
+                "Salatiitem11": "",
+                "Salaticena11": "",
+
+                "Salatiitem12": "",
+                "Salaticena12": "",
+
+                "Salatiitem13": "",
+                "Salaticena13": "",
+
+                "Salatiitem14": "",
+                "Salaticena14": "",
+			  },
+			  "MK": 
+			  {
+                "Salatiitem1": "",
+                "Salaticena1": "",
+
+                "Salatiitem2": "",
+                "Salaticena2": "",
+
+                "Salatiitem3": "",
+                "Salaticena3": "",
+
+                "Salatiitem4": "",
+                "Salaticena4": "",
+
+                "Salatiitem5": "",
+                "Salaticena5": "",
+
+                "Salatiitem6": "",
+                "Salaticena6": "",
+
+                "Salatiitem7": "",
+                "Salaticena7": "",
+
+                "Salatiitem8": "",
+                "Salaticena8": "",
+
+                "Salatiitem9": "",
+                "Salaticena9": "",
+
+                "Salatiitem10": "",
+                "Salaticena10": "",
+
+                "Salatiitem11": "",
+                "Salaticena11": "",
+
+                "Salatiitem12": "",
+                "Salaticena12": "",
+
+                "Salatiitem13": "",
+                "Salaticena13": "",
+
+                "Salatiitem14": "",
+                "Salaticena14": "",
+			}
+        }
+    </script>
+</body>
+</html>
+    
+    

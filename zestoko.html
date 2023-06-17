@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const langEl = document.querySelector('.langWrap');
+		const link = document.querySelectorAll('a');
+
+		const Zestokoitem1El = document.querySelector('.Zestokoitem1');
+        const Zestokocena1El = document.querySelector('.Zestokocena1');
+
+        const Zestokoitem2El = document.querySelector('.Zestokoitem2');
+        const Zestokocena2El = document.querySelector('.Zestokocena2');
+
+        const Zestokoitem3El = document.querySelector('.Zestokoitem3');
+        const Zestokocena3El = document.querySelector('.Zestokocena3');
+
+        const Zestokoitem4El = document.querySelector('.Zestokoitem4');
+        const Zestokocena4El = document.querySelector('.Zestokocena4');
+
+        const Zestokoitem5El = document.querySelector('.Zestokoitem5');
+        const Zestokocena5El = document.querySelector('.Zestokocena5');
+
+        const Zestokoitem6El = document.querySelector('.Zestokoitem6');
+        const Zestokocena6El = document.querySelector('.Zestokocena6');
+
+        const Zestokoitem7El = document.querySelector('.Zestokoitem7');
+        const Zestokocena7El = document.querySelector('.Zestokocena7');
+
+        const Zestokoitem8El = document.querySelector('.Zestokoitem8');
+        const Zestokocena8El = document.querySelector('.Zestokocena8');
+
+        const Zestokoitem9El = document.querySelector('.Zestokoitem9');
+        const Zestokocena9El = document.querySelector('.Zestokocena9');
+
+        const Zestokoitem10El = document.querySelector('.Zestokoitem10');
+        const Zestokocena10El = document.querySelector('.Zestokocena10');
+
+        const Zestokoitem11El = document.querySelector('.Zestokoitem11');
+        const Zestokocena11El = document.querySelector('.Zestokocena11');
+
+        const Zestokoitem12El = document.querySelector('.Zestokoitem12');
+        const Zestokocena12El = document.querySelector('.Zestokocena12');
+
+        const Zestokoitem13El = document.querySelector('.Zestokoitem13');
+        const Zestokocena13El = document.querySelector('.Zestokocena13');
+
+        const Zestokoitem14El = document.querySelector('.Zestokoitem14');
+        const Zestokocena14El = document.querySelector('.Zestokocena14');
+
+        const Zestokoitem15El = document.querySelector('.Zestokoitem15');
+        const Zestokocena15El = document.querySelector('.Zestokocena15');
+
+        const Zestokoitem16El = document.querySelector('.Zestokoitem16');
+        const Zestokocena16El = document.querySelector('.Zestokocena16');
+
+        const Zestokoitem17El = document.querySelector('.Zestokoitem17');
+        const Zestokocena17El = document.querySelector('.Zestokocena17');
+
+        const Zestokoitem18El = document.querySelector('.Zestokoitem18');
+        const Zestokocena18El = document.querySelector('.Zestokocena18');
+
+        const Zestokoitem19El = document.querySelector('.Zestokoitem19');
+        const Zestokocena19El = document.querySelector('.Zestokocena19');
+
+
+		link.forEach(el => {
+			el.addEventListener('click', () => {
+				langEl.querySelector('.active').classList.remove('active');
+				el.classList.add('active');
+
+				const attr = el.getAttribute('language');
+
+				Zestokoitem1El.textContent = data[attr].Zestokoitem1;
+                Zestokocena1El.textContent = data[attr].Zestokocena1;
+
+                Zestokoitem2El.textContent = data[attr].Zestokoitem2;
+                Zestokocena2El.textContent = data[attr].Zestokocena2;
+
+                Zestokoitem3El.textContent = data[attr].Zestokoitem3;
+                Zestokocena3El.textContent = data[attr].Zestokocena3;
+
+                Zestokoitem4El.textContent = data[attr].Zestokoitem4;
+                Zestokocena4El.textContent = data[attr].Zestokocena4;
+
+                Zestokoitem5El.textContent = data[attr].Zestokoitem5;
+                Zestokocena5El.textContent = data[attr].Zestokocena5;
+
+                Zestokoitem6El.textContent = data[attr].Zestokoitem6;
+                Zestokocena6El.textContent = data[attr].Zestokocena6;
+
+                Zestokoitem7El.textContent = data[attr].Zestokoitem7;
+                Zestokocena7El.textContent = data[attr].Zestokocena7;
+
+                Zestokoitem8El.textContent = data[attr].Zestokoitem8;
+                Zestokocena8El.textContent = data[attr].Zestokocena8;
+
+                Zestokoitem9El.textContent = data[attr].Zestokoitem9;
+                Zestokocena9El.textContent = data[attr].Zestokocena9;
+
+                Zestokoitem10El.textContent = data[attr].Zestokoitem10;
+                Zestokocena10El.textContent = data[attr].Zestokocena10;
+
+                Zestokoitem11El.textContent = data[attr].Zestokoitem11;
+                Zestokocena11El.textContent = data[attr].Zestokocena11;
+
+                Zestokoitem12El.textContent = data[attr].Zestokoitem12;
+                Zestokocena12El.textContent = data[attr].Zestokocena12;
+
+                Zestokoitem13El.textContent = data[attr].Zestokoitem13;
+                Zestokocena13El.textContent = data[attr].Zestokocena13;
+
+                Zestokoitem14El.textContent = data[attr].Zestokoitem14;
+                Zestokocena14El.textContent = data[attr].Zestokocena14;
+
+                Zestokoitem15El.textContent = data[attr].Zestokoitem15;
+                Zestokocena15El.textContent = data[attr].Zestokocena15;
+
+                Zestokoitem16El.textContent = data[attr].Zestokoitem16;
+                Zestokocena16El.textContent = data[attr].Zestokocena16;
+
+                Zestokoitem17El.textContent = data[attr].Zestokoitem17;
+                Zestokocena17El.textContent = data[attr].Zestokocena17;
+
+                Zestokoitem18El.textContent = data[attr].Zestokoitem18;
+                Zestokocena18El.textContent = data[attr].Zestokocena18;
+
+                Zestokoitem19El.textContent = data[attr].Zestokoitem19;
+                Zestokocena19El.textContent = data[attr].Zestokocena19;
+			});
+		});
+		
+		var data = {
+			  "english": 
+			  {
+                "Zestokoitem1": "",
+                "Zestokocena1": "",
+
+                "Zestokoitem2": "",
+                "Zestokocena2": "",
+
+                "Zestokoitem3": "",
+                "Zestokocena3": "",
+
+                "Zestokoitem4": "",
+                "Zestokocena4": "",
+
+                "Zestokoitem5": "",
+                "Zestokocena5": "",
+
+                "Zestokoitem6": "",
+                "Zestokocena6": "",
+
+                "Zestokoitem7": "",
+                "Zestokocena7": "",
+
+                "Zestokoitem8": "",
+                "Zestokocena8": "",
+
+                "Zestokoitem9": "",
+                "Zestokocena9": "",
+
+                "Zestokoitem10": "",
+                "Zestokocena10": "",
+
+                "Zestokoitem11": "",
+                "Zestokocena11": "",
+
+                "Zestokoitem12": "",
+                "Zestokocena12": "",
+
+                "Zestokoitem13": "",
+                "Zestokocena13": "",
+
+                "Zestokoitem14": "",
+                "Zestokocena14": "",
+
+                "Zestokoitem15": "",
+                "Zestokocena15": "",
+
+                "Zestokoitem16": "",
+                "Zestokocena16": "",
+
+                "Zestokoitem17": "",
+                "Zestokocena17": "",
+
+                "Zestokoitem18": "",
+                "Zestokocena18": "",
+
+                "Zestokoitem19": "",
+                "Zestokocena19s": "",
+			  },
+			  "MK": 
+			  {
+                "Zestokoitem1": "",
+                "Zestokocena1": "",
+
+                "Zestokoitem2": "",
+                "Zestokocena2": "",
+
+                "Zestokoitem3": "",
+                "Zestokocena3": "",
+
+                "Zestokoitem4": "",
+                "Zestokocena4": "",
+
+                "Zestokoitem5": "",
+                "Zestokocena5": "",
+
+                "Zestokoitem6": "",
+                "Zestokocena6": "",
+
+                "Zestokoitem7": "",
+                "Zestokocena7": "",
+
+                "Zestokoitem8": "",
+                "Zestokocena8": "",
+
+                "Zestokoitem9": "",
+                "Zestokocena9": "",
+
+                "Zestokoitem10": "",
+                "Zestokocena10": "",
+
+                "Zestokoitem11": "",
+                "Zestokocena11": "",
+
+                "Zestokoitem12": "",
+                "Zestokocena12": "",
+
+                "Zestokoitem13": "",
+                "Zestokocena13": "",
+
+                "Zestokoitem14": "",
+                "Zestokocena14": "",
+
+                "Zestokoitem15": "",
+                "Zestokocena15": "",
+
+                "Zestokoitem16": "",
+                "Zestokocena16": "",
+
+                "Zestokoitem17": "",
+                "Zestokocena17": "",
+
+                "Zestokoitem18": "",
+                "Zestokocena18": "",
+
+                "Zestokoitem19": "",
+                "Zestokocena19": "",
+			}
+        }
+    </script>
+</body>
+</html>
+    
+    

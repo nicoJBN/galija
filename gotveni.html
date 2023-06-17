@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const langEl = document.querySelector('.langWrap');
+		const link = document.querySelectorAll('a');
+
+		const Gotveniitem1El = document.querySelector('.Gotveniitem1');
+        const Gotvenicena1El = document.querySelector('.Gotvenicena1');
+
+        const Gotveniitem2El = document.querySelector('.Gotveniitem2');
+        const Gotvenicena2El = document.querySelector('.Gotvenicena2');
+
+        const Gotveniitem3El = document.querySelector('.Gotveniitem3');
+        const Gotvenicena3El = document.querySelector('.Gotvenicena3');
+
+        const Gotveniitem4El = document.querySelector('.Gotveniitem4');
+        const Gotvenicena4El = document.querySelector('.Gotvenicena4');
+
+        const Gotveniitem5El = document.querySelector('.Gotveniitem5');
+        const Gotvenicena5El = document.querySelector('.Gotvenicena5');
+
+
+		link.forEach(el => {
+			el.addEventListener('click', () => {
+				langEl.querySelector('.active').classList.remove('active');
+				el.classList.add('active');
+
+				const attr = el.getAttribute('language');
+
+				Gotveniitem1El.textContent = data[attr].Gotveniitem1;
+                Gotvenicena1El.textContent = data[attr].Gotvenicena1;
+
+                Gotveniitem2El.textContent = data[attr].Gotveniitem2;
+                Gotvenicena2El.textContent = data[attr].Gotvenicena2;
+
+                Gotveniitem3El.textContent = data[attr].Gotveniitem3;
+                Gotvenicena3El.textContent = data[attr].Gotvenicena3;
+
+                Gotveniitem4El.textContent = data[attr].Gotveniitem4;
+                Gotvenicena4El.textContent = data[attr].Gotvenicena4;
+
+                Gotveniitem5El.textContent = data[attr].Gotveniitem5;
+                Gotvenicena5El.textContent = data[attr].Gotvenicena5;
+			});
+		});
+		
+		var data = {
+			  "english": 
+			  {
+                "Gotveniitem1": "",
+                "Gotvenicena1": "",
+
+                "Gotveniitem2": "",
+                "Gotvenicena2": "",
+
+                "Gotveniitem3": "",
+                "Gotvenicena3": "",
+
+                "Gotveniitem4": "",
+                "Gotvenicena4": "",
+
+                "Gotveniitem5": "",
+                "Gotvenicena5": "",
+			  },
+			  "MK": 
+			  {
+                "Gotveniitem1": "",
+                "Gotvenicena1": "",
+
+                "Gotveniitem2": "",
+                "Gotvenicena2": "",
+
+                "Gotveniitem3": "",
+                "Gotvenicena3": "",
+
+                "Gotveniitem4": "",
+                "Gotvenicena4": "",
+
+                "Gotveniitem5": "",
+                "Gotvenicena5": "",
+
+                "Gotveniitem5": "",
+                "Gotvenicena5": "",
+			}
+        }
+    </script>
+</body>
+</html>
+    
+    

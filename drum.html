@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const langEl = document.querySelector('.langWrap');
+		const link = document.querySelectorAll('a');
+
+		const Drumitem1El = document.querySelector('.Drumitem1');
+        const Drumcena1El = document.querySelector('.Drumcena1');
+
+        const Drumitem2El = document.querySelector('.Drumitem2');
+        const Drumcena2El = document.querySelector('.Drumcena2');
+
+        const Drumitem3El = document.querySelector('.Drumitem3');
+        const Drumcena3El = document.querySelector('.Drumcena3');
+
+        const Drumitem4El = document.querySelector('.Drumitem4');
+        const Drumcena4El = document.querySelector('.Drumcena4');
+
+        const Drumitem5El = document.querySelector('.Drumitem5');
+        const Drumcena5El = document.querySelector('.Drumcena5');
+
+
+		link.forEach(el => {
+			el.addEventListener('click', () => {
+				langEl.querySelector('.active').classList.remove('active');
+				el.classList.add('active');
+
+				const attr = el.getAttribute('language');
+
+				Drumitem1El.textContent = data[attr].Drumitem1;
+                Drumcena1El.textContent = data[attr].Drumcena1;
+
+                Drumitem2El.textContent = data[attr].Drumitem2;
+                Drumcena2El.textContent = data[attr].Drumcena2;
+
+                Drumitem3El.textContent = data[attr].Drumitem3;
+                Drumcena3El.textContent = data[attr].Drumcena3;
+
+                Drumitem4El.textContent = data[attr].Drumitem4;
+                Drumcena4El.textContent = data[attr].Drumcena4;
+
+                Drumitem5El.textContent = data[attr].Drumitem5;
+                Drumcena5El.textContent = data[attr].Drumcena5;
+			});
+		});
+		
+		var data = {
+			  "english": 
+			  {
+                "Drumitem1": "",
+                "Drumcena1": "",
+
+                "Drumitem2": "",
+                "Drumcena2": "",
+
+                "Drumitem3": "",
+                "Drumcena3": "",
+
+                "Drumitem4": "",
+                "Drumcena4": "",
+
+                "Drumitem5": "",
+                "Drumcena5": "",
+			  },
+			  "MK": 
+			  {
+                "Drumitem1": "",
+                "Drumcena1": "",
+
+                "Drumitem2": "",
+                "Drumcena2": "",
+
+                "Drumitem3": "",
+                "Drumcena3": "",
+
+                "Drumitem4": "",
+                "Drumcena4": "",
+
+                "Drumitem5": "",
+                "Drumcena5": "",
+			}
+        }
+    </script>
+</body>
+</html>
+    
+    

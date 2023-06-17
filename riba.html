@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const langEl = document.querySelector('.langWrap');
+		const link = document.querySelectorAll('a');
+
+		const Ribaitem1El = document.querySelector('.Ribaitem1');
+        const Ribacena1El = document.querySelector('.Ribacena1');
+
+        const Ribaitem2El = document.querySelector('.Ribaitem2');
+        const Ribacena2El = document.querySelector('.Ribacena2');
+
+        const Ribaitem3El = document.querySelector('.Ribaitem3');
+        const Ribacena3El = document.querySelector('.Ribacena3');
+
+		link.forEach(el => {
+			el.addEventListener('click', () => {
+				langEl.querySelector('.active').classList.remove('active');
+				el.classList.add('active');
+
+				const attr = el.getAttribute('language');
+
+				Ribaitem1El.textContent = data[attr].Ribaitem1;
+                Ribacena1El.textContent = data[attr].Ribacena1;
+
+                Ribaitem2El.textContent = data[attr].Ribaitem2;
+                Ribacena2El.textContent = data[attr].Ribacena2;
+
+                Ribaitem3El.textContent = data[attr].Ribaitem3;
+                Ribacena3El.textContent = data[attr].Ribacena3;
+			});
+		});
+		
+		var data = {
+			  "english": 
+			  {
+                "Ribaitem1": "",
+                "Ribacena1": "",
+
+                "Ribaitem2": "",
+                "Ribacena2": "",
+
+                "Ribaitem3": "",
+                "Ribacena3": "",
+			  },
+			  "MK": 
+			  {
+                "Ribaitem1": "",
+                "Ribacena1": "",
+
+                "Ribaitem2": "",
+                "Ribacena2": "",
+
+                "Ribaitem3": "",
+                "Ribacena3": "",
+			}
+        }
+    </script>
+</body>
+</html>
+    
+    

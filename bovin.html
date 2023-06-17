@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const langEl = document.querySelector('.langWrap');
+		const link = document.querySelectorAll('a');
+
+		const Bovinitem1El = document.querySelector('.Bovinitem1');
+        const Bovincena1El = document.querySelector('.Bovincena1');
+
+        const Bovinitem2El = document.querySelector('.Bovinitem2');
+        const Bovincena2El = document.querySelector('.Bovincena2');
+
+        const Bovinitem3El = document.querySelector('.Bovinitem3');
+        const Bovincena3El = document.querySelector('.Bovincena3');
+
+        const Bovinitem4El = document.querySelector('.Bovinitem4');
+        const Bovincena4El = document.querySelector('.Bovincena4');
+
+
+		link.forEach(el => {
+			el.addEventListener('click', () => {
+				langEl.querySelector('.active').classList.remove('active');
+				el.classList.add('active');
+
+				const attr = el.getAttribute('language');
+
+				Bovinitem1El.textContent = data[attr].Bovinitem1;
+                Bovincena1El.textContent = data[attr].Bovincena1;
+
+                Bovinitem2El.textContent = data[attr].Bovinitem2;
+                Bovincena2El.textContent = data[attr].Bovincena2;
+
+                Bovinitem3El.textContent = data[attr].Bovinitem3;
+                Bovincena3El.textContent = data[attr].Bovincena3;
+
+                Bovinitem4El.textContent = data[attr].Bovinitem4;
+                Bovincena4El.textContent = data[attr].Bovincena4;
+			});
+		});
+		
+		var data = {
+			  "english": 
+			  {
+                "Bovinitem1": "",
+                "Bovincena1": "",
+
+                "Bovinitem2": "",
+                "Bovincena2": "",
+
+                "Bovinitem3": "",
+                "Bovincena3": "",
+
+                "Bovinitem4": "",
+                "Bovincena4": "",
+			  },
+			  "MK": 
+			  {
+                "Bovinitem1": "",
+                "Bovincena1": "",
+
+                "Bovinitem2": "",
+                "Bovincena2": "",
+
+                "Bovinitem3": "",
+                "Bovincena3": "",
+
+                "Bovinitem4": "",
+                "Bovincena4": "",
+			}
+        }
+    </script>
+</body>
+</html>
+    
+    

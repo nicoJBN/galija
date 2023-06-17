@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const langEl = document.querySelector('.langWrap');
+		const link = document.querySelectorAll('a');
+
+		const Tikvesitem1El = document.querySelector('.Tikvesitem1');
+        const Tikvescena1El = document.querySelector('.Tikvescena1');
+
+        const Tikvesitem2El = document.querySelector('.Tikvesitem2');
+        const Tikvescena2El = document.querySelector('.Tikvescena2');
+
+        const Tikvesitem3El = document.querySelector('.Tikvesitem3');
+        const Tikvescena3El = document.querySelector('.Tikvescena3');
+
+        const Tikvesitem4El = document.querySelector('.Tikvesitem4');
+        const Tikvescena4El = document.querySelector('.Tikvescena4');
+
+        const Tikvesitem5El = document.querySelector('.Tikvesitem5');
+        const Tikvescena5El = document.querySelector('.Tikvescena5');
+
+        const Tikvesitem6El = document.querySelector('.Tikvesitem6');
+        const Tikvescena6El = document.querySelector('.Tikvescena6');
+
+        const Tikvesitem7El = document.querySelector('.Tikvesitem7');
+        const Tikvescena7El = document.querySelector('.Tikvescena7');
+
+        const Tikvesitem8El = document.querySelector('.Tikvesitem8');
+        const Tikvescena8El = document.querySelector('.Tikvescena8');
+
+        const Tikvesitem9El = document.querySelector('.Tikvesitem9');
+        const Tikvescena9El = document.querySelector('.Tikvescena9');
+
+        const Tikvesitem10El = document.querySelector('.Tikvesitem10');
+        const Tikvescena10El = document.querySelector('.Tikvescena10');
+
+        const Tikvesitem11El = document.querySelector('.Tikvesitem11');
+        const Tikvescena11El = document.querySelector('.Tikvescena11');
+
+        const Tikvesitem12El = document.querySelector('.Tikvesitem12');
+        const Tikvescena12El = document.querySelector('.Tikvescena12');
+
+        const Tikvesitem13El = document.querySelector('.Tikvesitem13');
+        const Tikvescena13El = document.querySelector('.Tikvescena13');
+
+        const Tikvesitem14El = document.querySelector('.Tikvesitem14');
+        const Tikvescena14El = document.querySelector('.Tikvescena14');
+
+
+		link.forEach(el => {
+			el.addEventListener('click', () => {
+				langEl.querySelector('.active').classList.remove('active');
+				el.classList.add('active');
+
+				const attr = el.getAttribute('language');
+
+				Tikvesitem1El.textContent = data[attr].Tikvesitem1;
+                Tikvescena1El.textContent = data[attr].Tikvescena1;
+
+                Tikvesitem2El.textContent = data[attr].Tikvesitem2;
+                Tikvescena2El.textContent = data[attr].Tikvescena2;
+
+                Tikvesitem3El.textContent = data[attr].Tikvesitem3;
+                Tikvescena3El.textContent = data[attr].Tikvescena3;
+
+                Tikvesitem4El.textContent = data[attr].Tikvesitem4;
+                Tikvescena4El.textContent = data[attr].Tikvescena4;
+
+                Tikvesitem5El.textContent = data[attr].Tikvesitem5;
+                Tikvescena5El.textContent = data[attr].Tikvescena5;
+
+                Tikvesitem6El.textContent = data[attr].Tikvesitem6;
+                Tikvescena6El.textContent = data[attr].Tikvescena6;
+
+                Tikvesitem7El.textContent = data[attr].Tikvesitem7;
+                Tikvescena7El.textContent = data[attr].Tikvescena7;
+
+                Tikvesitem8El.textContent = data[attr].Tikvesitem8;
+                Tikvescena8El.textContent = data[attr].Tikvescena8;
+
+                Tikvesitem9El.textContent = data[attr].Tikvesitem9;
+                Tikvescena9El.textContent = data[attr].Tikvescena9;
+
+                Tikvesitem10El.textContent = data[attr].Tikvesitem10;
+                Tikvescena10El.textContent = data[attr].Tikvescena10;
+
+                Tikvesitem11El.textContent = data[attr].Tikvesitem11;
+                Tikvescena11El.textContent = data[attr].Tikvescena11;
+
+                Tikvesitem12El.textContent = data[attr].Tikvesitem12;
+                Tikvescena12El.textContent = data[attr].Tikvescena12;
+
+                Tikvesitem13El.textContent = data[attr].Tikvesitem13;
+                Tikvescena13El.textContent = data[attr].Tikvescena13;
+
+                Tikvesitem14El.textContent = data[attr].Tikvesitem14;
+                Tikvescena14El.textContent = data[attr].Tikvescena14;
+			});
+		});
+		
+		var data = {
+			  "english": 
+			  {
+                "Tikvesitem1": "",
+                "Tikvescena1": "",
+
+                "Tikvesitem2": "",
+                "Tikvescena2": "",
+
+                "Tikvesitem3": "",
+                "Tikvescena3": "",
+
+                "Tikvesitem4": "",
+                "Tikvescena4": "",
+
+                "Tikvesitem5": "",
+                "Tikvescena5": "",
+
+                "Tikvesitem6": "",
+                "Tikvescena6": "",
+
+                "Tikvesitem7": "",
+                "Tikvescena7": "",
+
+                "Tikvesitem8": "",
+                "Tikvescena8": "",
+
+                "Tikvesitem9": "",
+                "Tikvescena9": "",
+
+                "Tikvesitem10": "",
+                "Tikvescena10": "",
+
+                "Tikvesitem11": "",
+                "Tikvescena11": "",
+
+                "Tikvesitem12": "",
+                "Tikvescena12": "",
+
+                "Tikvesitem13": "",
+                "Tikvescena13": "",
+
+                "Tikvesitem14": "",
+                "Tikvescena14": "",
+			  },
+			  "MK": 
+			  {
+                "Tikvesitem1": "",
+                "Tikvescena1": "",
+
+                "Tikvesitem2": "",
+                "Tikvescena2": "",
+
+                "Tikvesitem3": "",
+                "Tikvescena3": "",
+
+                "Tikvesitem4": "",
+                "Tikvescena4": "",
+
+                "Tikvesitem5": "",
+                "Tikvescena5": "",
+
+                "Tikvesitem6": "",
+                "Tikvescena6": "",
+
+                "Tikvesitem7": "",
+                "Tikvescena7": "",
+
+                "Tikvesitem8": "",
+                "Tikvescena8": "",
+
+                "Tikvesitem9": "",
+                "Tikvescena9": "",
+
+                "Tikvesitem10": "",
+                "Tikvescena10": "",
+
+                "Tikvesitem11": "",
+                "Tikvescena11": "",
+
+                "Tikvesitem12": "",
+                "Tikvescena12": "",
+
+                "Tikvesitem13": "",
+                "Tikvescena13": "",
+
+                "Tikvesitem14": "",
+                "Tikvescena14": "",
+			}
+        }
+    </script>
+</body>
+</html>
+    
+    

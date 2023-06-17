@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const langEl = document.querySelector('.langWrap');
+		const link = document.querySelectorAll('a');
+
+		const Desertiitem1El = document.querySelector('.Desertiitem1');
+        const Deserticena1El = document.querySelector('.Deserticena1');
+
+        const Desertiitem2El = document.querySelector('.Desertiitem2');
+        const Deserticena2El = document.querySelector('.Deserticena2');
+
+        const Desertiitem3El = document.querySelector('.Desertiitem3');
+        const Deserticena3El = document.querySelector('.Deserticena3');
+
+        const Desertiitem4El = document.querySelector('.Desertiitem4');
+        const Deserticena4El = document.querySelector('.Deserticena4');
+
+        const Desertiitem5El = document.querySelector('.Desertiitem5');
+        const Deserticena5El = document.querySelector('.Deserticena5');
+
+
+		link.forEach(el => {
+			el.addEventListener('click', () => {
+				langEl.querySelector('.active').classList.remove('active');
+				el.classList.add('active');
+
+				const attr = el.getAttribute('language');
+
+				Desertiitem1El.textContent = data[attr].Desertiitem1;
+                Deserticena1El.textContent = data[attr].Deserticena1;
+
+                Desertiitem2El.textContent = data[attr].Desertiitem2;
+                Deserticena2El.textContent = data[attr].Deserticena2;
+
+                Desertiitem3El.textContent = data[attr].Desertiitem3;
+                Deserticena3El.textContent = data[attr].Deserticena3;
+
+                Desertiitem4El.textContent = data[attr].Desertiitem4;
+                Deserticena4El.textContent = data[attr].Deserticena4;
+
+                Desertiitem5El.textContent = data[attr].Desertiitem5;
+                Deserticena5El.textContent = data[attr].Deserticena5;
+			});
+		});
+		
+		var data = {
+			  "english": 
+			  {
+                "Desertiitem1": "",
+                "Deserticena1": "",
+
+                "Desertiitem2": "",
+                "Deserticena2": "",
+
+                "Desertiitem3": "",
+                "Deserticena3": "",
+
+                "Desertiitem4": "",
+                "Deserticena4": "",
+
+                "Desertiitem5": "",
+                "Deserticena5": "",
+			  },
+			  "MK": 
+			  {
+                "Desertiitem1": "",
+                "Deserticena1": "",
+
+                "Desertiitem2": "",
+                "Deserticena2": "",
+
+                "Desertiitem3": "",
+                "Deserticena3": "",
+
+                "Desertiitem4": "",
+                "Deserticena4": "",
+
+                "Desertiitem5": "",
+                "Deserticena5": "",
+			}
+        }
+    </script>
+</body>
+</html>
+    
+    

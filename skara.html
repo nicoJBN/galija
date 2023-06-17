@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const langEl = document.querySelector('.langWrap');
+		const link = document.querySelectorAll('a');
+
+		const Skaraitem1El = document.querySelector('.Skaraitem1');
+        const Skarasostojki1El = document.querySelector('.Skarasostojki1');
+        const Skaracena1El = document.querySelector('.Skaracena1');
+
+        const Skaraitem2El = document.querySelector('.Skaraitem2');
+        const Skarasostojki2El = document.querySelector('.Skarasostojki2');
+        const Skaracena2El = document.querySelector('.Skaracena2');
+
+        const Skaraitem3El = document.querySelector('.Skaraitem3');
+        const Skarasostojki3El = document.querySelector('.Skarasostojki3');
+        const Skaracena3El = document.querySelector('.Skaracena3');
+
+        const Skaraitem4El = document.querySelector('.Skaraitem4');
+        const Skarasostojki4El = document.querySelector('.Skarasostojki4');
+        const Skaracena4El = document.querySelector('.Skaracena4');
+
+        const Skaraitem5El = document.querySelector('.Skaraitem5');
+        const Skaracena5El = document.querySelector('.Skaracena5');
+
+        const Skaraitem6El = document.querySelector('.Skaraitem6');
+        const Skaracena6El = document.querySelector('.Skaracena6');
+
+        const Skaraitem7El = document.querySelector('.Skaraitem7');
+        const Skaracena7El = document.querySelector('.Skaracena7');
+
+        const Skaraitem8El = document.querySelector('.Skaraitem8');
+        const Skaracena8El = document.querySelector('.Skaracena8');
+
+        const Skaraitem9El = document.querySelector('.Skaraitem9');
+        const Skaracena9El = document.querySelector('.Skaracena9');
+
+        const Skaraitem10El = document.querySelector('.Skaraitem10');
+        const Skaracena10El = document.querySelector('.Skaracena10');
+
+        const Skaraitem11El = document.querySelector('.Skaraitem11');
+        const Skaracena11El = document.querySelector('.Skaracena11');
+
+        const Skaraitem12El = document.querySelector('.Skaraitem12');
+        const Skaracena12El = document.querySelector('.Skaracena12');
+
+        const Skaraitem13El = document.querySelector('.Skaraitem13');
+        const Skaracena13El = document.querySelector('.Skaracena13');
+
+        const Skaraitem14El = document.querySelector('.Skaraitem14');
+        const Skaracena14El = document.querySelector('.Skaracena14');
+
+        const Skaraitem15El = document.querySelector('.Skaraitem15');
+        const Skaracena15El = document.querySelector('.Skaracena15');
+
+        const Skaraitem16El = document.querySelector('.Skaraitem16');
+        const Skaracena16El = document.querySelector('.Skaracena16');
+
+        const Skaraitem17El = document.querySelector('.Skaraitem17');
+        const Skaracena17El = document.querySelector('.Skaracena17');
+
+        const Skaraitem18El = document.querySelector('.Skaraitem18');
+        const Skaracena18El = document.querySelector('.Skaracena18');
+
+        const Skaraitem19El = document.querySelector('.Skaraitem19');
+        const Skaracena19El = document.querySelector('.Skaracena19');
+
+        const Skaraitem20El = document.querySelector('.Skaraitem20');
+        const Skaracena20El = document.querySelector('.Skaracena20');
+
+        const Skaraitem21El = document.querySelector('.Skaraitem21');
+        const Skaracena21El = document.querySelector('.Skaracena21');
+
+
+		link.forEach(el => {
+			el.addEventListener('click', () => {
+				langEl.querySelector('.active').classList.remove('active');
+				el.classList.add('active');
+
+				const attr = el.getAttribute('language');
+
+				Skaraitem1El.textContent = data[attr].Skaraitem1;
+                Skarasostojki1El.textContent = data[attr].Skarasostojki1;
+                Skaracena1El.textContent = data[attr].Skaracena1;
+
+                Skaraitem2El.textContent = data[attr].Skaraitem2;
+                Skarasostojki2El.textContent = data[attr].Skarasostojki2;
+                Skaracena2El.textContent = data[attr].Skaracena2;
+
+                Skaraitem3El.textContent = data[attr].Skaraitem3;
+                Skarasostojki3El.textContent = data[attr].Skarasostojki3;
+                Skaracena3El.textContent = data[attr].Skaracena3;
+
+                Skaraitem4El.textContent = data[attr].Skaraitem4;
+                Skarasostojki4El.textContent = data[attr].Skarasostojki4;
+                Skaracena4El.textContent = data[attr].Skaracena4;
+
+                Skaraitem5El.textContent = data[attr].Skaraitem5;
+                Skaracena5El.textContent = data[attr].Skaracena5;
+
+                Skaraitem6El.textContent = data[attr].Skaraitem6;
+                Skaracena6El.textContent = data[attr].Skaracena6;
+
+                Skaraitem7El.textContent = data[attr].Skaraitem7;
+                Skaracena7El.textContent = data[attr].Skaracena7;
+
+                Skaraitem8El.textContent = data[attr].Skaraitem8;
+                Skaracena8El.textContent = data[attr].Skaracena8;
+
+                Skaraitem9El.textContent = data[attr].Skaraitem9;
+                Skaracena9El.textContent = data[attr].Skaracena9;
+
+                Skaraitem10El.textContent = data[attr].Skaraitem10;
+                Skaracena10El.textContent = data[attr].Skaracena10;
+
+                Skaraitem11El.textContent = data[attr].Skaraitem11;
+                Skaracena11El.textContent = data[attr].Skaracena11;
+
+                Skaraitem12El.textContent = data[attr].Skaraitem12;
+                Skaracena12El.textContent = data[attr].Skaracena12;
+
+                Skaraitem13El.textContent = data[attr].Skaraitem13;
+                Skaracena13El.textContent = data[attr].Skaracena13;
+
+                Skaraitem14El.textContent = data[attr].Skaraitem14;
+                Skaracena14El.textContent = data[attr].Skaracena14;
+
+                Skaraitem15El.textContent = data[attr].Skaraitem15;
+                Skaracena15El.textContent = data[attr].Skaracena15;
+
+                Skaraitem16El.textContent = data[attr].Skaraitem16;
+                Skaracena16El.textContent = data[attr].Skaracena16;
+
+                Skaraitem17El.textContent = data[attr].Skaraitem17;
+                Skaracena17El.textContent = data[attr].Skaracena17;
+
+                Skaraitem18El.textContent = data[attr].Skaraitem18;
+                Skaracena18El.textContent = data[attr].Skaracena18;
+
+                Skaraitem19El.textContent = data[attr].Skaraitem19;
+                Skaracena19El.textContent = data[attr].Skaracena19;
+
+                Skaraitem20El.textContent = data[attr].Skaraitem20;
+                Skaracena20El.textContent = data[attr].Skaracena20;
+
+                Skaraitem21El.textContent = data[attr].Skaraitem21;
+                Skaracena21El.textContent = data[attr].Skaracena21;
+			});
+		});
+		
+		var data = {
+			  "english": 
+			  {
+                "Skaraitem1": "",
+                "Skarasostojki1": "",
+                "Skaracena1": "",
+
+                "Skaraitem2": "",
+                "Skarasostojki2": "",
+                "Skaracena2": "",
+
+                "Skaraitem3": "",
+                "Skarasostojki3": "",
+                "Skaracena3": "",
+
+                "Skaraitem4": "",
+                "Skarasostojki4": "",
+                "Skaracena4": "",
+
+                "Skaraitem5": "",
+                "Skaracena5": "",
+
+                "Skaraitem6": "",
+                "Skaracena6": "",
+
+                "Skaraitem7": "",
+                "Skaracena7": "",
+
+                "Skaraitem8": "",
+                "Skaracena8": "",
+
+                "Skaraitem9": "",
+                "Skaracena9": "",
+
+                "Skaraitem10": "",
+                "Skaracena10": "",
+
+                "Skaraitem11": "",
+                "Skaracena11": "",
+
+                "Skaraitem12": "",
+                "Skaracena12": "",
+
+                "Skaraitem13": "",
+                "Skaracena13": "",
+
+                "Skaraitem14": "",
+                "Skaracena14": "",
+
+                "Skaraitem15": "",
+                "Skaracena15": "",
+
+                "Skaraitem16": "",
+                "Skaracena16": "",
+
+                "Skaraitem17": "",
+                "Skaracena17": "",
+
+                "Skaraitem18": "",
+                "Skaracena18": "",
+
+                "Skaraitem19": "",
+                "Skaracena19": "",
+
+                "Skaraitem20": "",
+                "Skaracena20": "",
+
+                "Skaraitem21": "",
+                "Skaracena21": "",
+			},
+            "MK":
+            {
+                "Skaraitem1": "",
+                "Skarasostojki1": "",
+                "Skaracena1": "",
+
+                "Skaraitem2": "",
+                "Skarasostojki2": "",
+                "Skaracena2": "",
+
+                "Skaraitem3": "",
+                "Skarasostojki3": "",
+                "Skaracena3": "",
+
+                "Skaraitem4": "",
+                "Skarasostojki4": "",
+                "Skaracena4": "",
+
+                "Skaraitem5": "",
+                "Skaracena5": "",
+
+                "Skaraitem6": "",
+                "Skaracena6": "",
+
+                "Skaraitem7": "",
+                "Skaracena7": "",
+
+                "Skaraitem8": "",
+                "Skaracena8": "",
+
+                "Skaraitem9": "",
+                "Skaracena9": "",
+
+                "Skaraitem10": "",
+                "Skaracena10": "",
+
+                "Skaraitem11": "",
+                "Skaracena11": "",
+
+                "Skaraitem12": "",
+                "Skaracena12": "",
+
+                "Skaraitem13": "",
+                "Skaracena13": "",
+
+                "Skaraitem14": "",
+                "Skaracena14": "",
+
+                "Skaraitem15": "",
+                "Skaracena15": "",
+
+                "Skaraitem16": "",
+                "Skaracena16": "",
+
+                "Skaraitem17": "",
+                "Skaracena17": "",
+
+                "Skaraitem18": "",
+                "Skaracena18": "",
+
+                "Skaraitem19": "",
+                "Skaracena19": "",
+
+                "Skaraitem20": "",
+                "Skaracena20": "",
+
+                "Skaraitem21": "",
+                "Skaracena21": "",
+            }
+        }
+    </script>
+</body>
+</html>
