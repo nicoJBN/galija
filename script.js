@@ -28,4 +28,1269 @@ const item1El = document.querySelector('#item1');
   var data = {
       "english": 
       {
-        
+        //bezalkoholni
+           "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+
+          //bovin
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+
+
+          //deserti
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+
+          //dodatoci
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+
+          //dorucek
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+
+          //drum
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+
+          //gotveni
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+
+          //pivo
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+
+          //predjadenje
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+
+          //riba
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+
+          //salati
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          //skara
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+
+          //tikves
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+
+          //vino
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+
+          //zestoko
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+      }
+          "MKD":
+{
+     //bezalkoholni
+           "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+
+          //bovin
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+
+
+          //deserti
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+
+          //dodatoci
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+
+          //dorucek
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+
+          //drum
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+
+          //gotveni
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+
+          //pivo
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+
+          //predjadenje
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+
+          //riba
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+
+          //salati
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          //skara
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+
+          //tikves
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+
+          //vino
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+
+          //zestoko
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+
+          "Picaitem1": "Quatro formaggi pizza",
+           "Picasostojki1": "(Ketchup, 4 kinds of cheese)",
+           "Picacena1": "320 den./340 den.",
+    }
+
