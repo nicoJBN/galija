@@ -661,246 +661,247 @@ const item1El = document.querySelector('#item1');
           "MKD":
       {
         //bezalkoholni
-           "bezalkoholniitem1": "Coca Cola (0.25 l.) ",
+          
+           "bezalkoholniitem1": "Кока кола (0,25 л.)",
            "bezalkoholnisostojki1": "",
            "bezalkoholnicena1": "70 ден.",
 
-           "bezalkoholniitem2": "Fanta (0.25 l.)",
+           "bezalkoholniitem2": "Фанта (0,25 л.)",
            "bezalkoholnisostojki2": "",
            "bezalkoholnicena2": "70 ден.",
 
-          "bezalkoholniitem3": "Sprite (0.25 l.)",
+          "bezalkoholniitem3": "Спрајт (0,25 л.)",
            "bezalkoholnisostojki3": "",
            "bezalkoholnicena3": "70 ден.",
 
-          "bezalkoholniitem4": "Schweppes (0.25 l.)",
+          "bezalkoholniitem4": "Швепс (0,25 л.)",
            "bezalkoholnisostojki4": "",
            "bezalkoholnicena4": "70 ден..",
 
-          "bezalkoholniitem5": "Tonic (0.25 l.)",
+          "bezalkoholniitem5": "Тоник (0,25 л.)",
            "bezalkoholnisostojki5": "",
            "bezalkoholnicena5": "70 ден.",
 
-          "bezalkoholniitem6": "Pepsi (0.25 l.) ",
+          "bezalkoholniitem6": "Пепси (0,25 л.)",
            "bezalkoholnisostojki6": "",
            "bezalkoholnicena6": "70 ден.",
 
-          "bezalkoholniitem7": "Gazosa (0.25 l.)",
+          "bezalkoholniitem7": "Газоза (0,25 л.)",
            "bezalkoholnisostojki7": "",
-           "bezalkoholnicena7": "70 mkd.",
+           "bezalkoholnicena7": "70 ден.",
 
-          "bezalkoholniitem8": "Bravo (Juice)",
-           "bezalkoholnisostojki8": "(0.25 l.)",
-           "bezalkoholnicena8": "70 mkd.",
+          "bezalkoholniitem8": "Браво (Негазиран)",
+           "bezalkoholnisostojki8": "(0,25 л.)",
+           "bezalkoholnicena8": "70 ден.",
 
-          "bezalkoholniitem9": "Bravo (Iced tea)",
-           "bezalkoholnisostojki9": "(0.33 l.)",
-           "bezalkoholnicena9": "70 mkd.",
+          "bezalkoholniitem9": "Браво (Леден чај)",
+           "bezalkoholnisostojki9": "(0,33 л.)",
+           "bezalkoholnicena9": "70 ден",
 
-          "bezalkoholniitem10": "Rosa (Water)",
-           "bezalkoholnisostojki10": "(0.25 l.)",
-           "bezalkoholnicena10": "50 mkd.",
+          "bezalkoholniitem10": "Роса (Негазирана вода)",
+           "bezalkoholnisostojki10": "(0,25 л.)",
+           "bezalkoholnicena10": "50 ден.",
 
-          "bezalkoholniitem11": "Visiana (Water)",
-           "bezalkoholnisostojki11": "(0.7 l.)",
-           "bezalkoholnicena11": "70 mkd.",
+          "bezalkoholniitem11": "Визиана (Негазирана вода)",
+           "bezalkoholnisostojki11": "(0,7 л.)",
+           "bezalkoholnicena11": "70 ден.",
 
-          "bezalkoholniitem12": "Visiana (Sparkling water)",
-           "bezalkoholnisostojki12": "(0.7 l.)",
-           "bezalkoholnicena12": "70 mkd.",
+          "bezalkoholniitem12": "Визиана (Газирана вода)",
+           "bezalkoholnisostojki12": "(0,7 л.)",
+           "bezalkoholnicena12": "70 ден.",
 
-          "bezalkoholniitem13": "Pelisterka (Carbonated)",
-           "bezalkoholnisostojki13": "(0.25 l.)",
-           "bezalkoholnicena13": "50 mkd.",
+          "bezalkoholniitem13": "Пелистерка (Газирана)",
+           "bezalkoholnisostojki13": "(0,25 л.)",
+           "bezalkoholnicena13": "50 ден.",
 
-          "bezalkoholniitem14": "Pelisterka (Carbonated)",
-           "bezalkoholnisostojki14": "(1 l.)",
-           "bezalkoholnicena14": "80 mkd.",
+          "bezalkoholniitem14": "Пелистерка (Газирана)",
+           "bezalkoholnisostojki14": "(1 л.)",
+           "bezalkoholnicena14": "80 ден.",
 
           //bovin
 
-          "bovinitem1": "Alexander",
+          "bovinitem1": "Александар",
            "bovinsostojki1": "",
-           "bovincena1": "1000 mkd.",
+           "bovincena1": "1000 ден.",
 
-          "bovinitem2": "Merlot",
+          "bovinitem2": "Мерлот",
            "bovinsostojki2": "",
-           "bovincena2": "1000 mkd.",
+           "bovincena2": "1000 ден.",
 
-          "bovinitem3": "Cabernet Sauvignon",
+          "bovinitem3": "Каберне Совињон ",
            "bovinsostojki3": "",
-           "bovincena3": "1000 mkd.",
+           "bovincena3": "1000 ден.",
 
-          "bovinitem4": "Muscat Temjanika",
+          "bovinitem4": "Мускат Темјаника",
            "bovinsostojki4": "",
-           "bovincena4": "1000 mkd.",
+           "bovincena4": "1000 ден.",
 
 
 
           //deserti
 
-          "desertiitem1": "Pancake with cream and banana",
+          "desertiitem1": "Палачинка со крем и банана",
            "desertisostojki1": "",
-           "deserticena1": "60 mkd.",
+           "deserticena1": "60 ден.",
 
-          "desertiitem2": "Pancake with cream and plasma cookie",
+          "desertiitem2": "Палачинка со крем и плазма ",
            "desertisostojki2": "",
-           "deserticena2": "60 mkd.",
+           "deserticena2": "60 ден.",
 
-          "desertiitem3": "Pancake with honey and walnuts",
+          "desertiitem3": "Палачинка со мед и ореви",
            "desertisostojki3": "",
-           "deserticena3": "60 mkd.",
+           "deserticena3": "60 ден.",
 
-          "desertiitem4": "Sweet desert with wild figs",
+          "desertiitem4": "Слатко од диви смокви",
            "desertisostojki4": "",
-           "deserticena4": "60 mkd.",
+           "deserticena4": "60 ден.",
 
-          "desertiitem5": "Waffles with cream and banana",
+          "desertiitem5": "Вафли со крем и банана",
            "desertisostojki5": "",
-           "deserticena5": "120 mkd.",
+           "deserticena5": "120 ден.",
 
 
           //dodatoci
 
-          "dodatociitem1": "French fries (Small)",
+          "dodatociitem1": "Помфрит (Мал)",
            "dodatocisostojki1": "",
-           "dodatocicena1": "80 mkd.",
+           "dodatocicena1": "80 ден.",
 
-          "dodatociitem2": "French fries (Large)",
+          "dodatociitem2": "Помфрит (Голем)",
            "dodatocisostojki2": "",
-           "dodatocicena2": "100 mkd.",
+           "dodatocicena2": "100 ден.",
 
-          "dodatociitem3": "Fries (Baked)",
+          "dodatociitem3": "Помфрит (Пекарски)",
            "dodatocisostojki3": "",
-           "dodatocicena3": "150 mkd.",
+           "dodatocicena3": "150 ден.",
 
-          "dodatociitem4": "Nafora bread",
+          "dodatociitem4": "Нафора",
            "dodatocisostojki4": "",
-           "dodatocicena4": "80 mkd.",
+           "dodatocicena4": "80 ден.",
 
-          "dodatociitem5": "Side dish",
-           "dodatocisostojki5": "(rice, baked beans, puree)",
-           "dodatocicena5": "40 mkd.",
+          "dodatociitem5": "Гарнир",
+           "dodatocisostojki5": "(ориз, тавче гравче, пире)",
+           "dodatocicena5": "40 ден.",
 
 
           //dorucek
 
-          "dorucekitem1": "Omelet with cheese",
+          "dorucekitem1": "Омлет со кашкавал",
            "doruceksostojki1": "",
-           "dorucekcena1": "120 mkd.",
+           "dorucekcena1": "120 ден.",
 
-          "dorucekitem2": "Omelet with white cheese",
+          "dorucekitem2": "Омлет со сирење",
            "doruceksostojki2": "",
-           "dorucekcena2": "120 mkd.",
+           "dorucekcena2": "120 ден.",
 
-          "dorucekitem3": "Omelet with bacon",
+          "dorucekitem3": "Омлет со сланина",
            "doruceksostojki3": "",
-           "dorucekcena3": "130 mkd.",
+           "dorucekcena3": "130 ден.",
 
-          "dorucekitem4": "Mixed omelet",
+          "dorucekitem4": "Мешан омлет",
            "doruceksostojki4": "",
-           "dorucekcena4": "140 mkd.",
+           "dorucekcena4": "140 ден.",
 
-          "dorucekitem5": "Kaygana omelet",
+          "dorucekitem5": "Кајгана",
            "doruceksostojki5": "",
-           "dorucekcena5": "90 mkd.",
+           "dorucekcena5": "90 ден.",
 
-          "dorucekitem6": "Boiled egg",
+          "dorucekitem6": "Варено јајце",
            "doruceksostojki6": "",
-           "dorucekcena6": "30 mkd.",
+           "dorucekcena6": "30 ден.",
 
-          "dorucekitem7": "Eye shaped egg",
+          "dorucekitem7": "Јајце на око",
            "doruceksostojki7": "",
-           "dorucekcena7": "30 mkd.",
+           "dorucekcena7": "30ден.",
 
 
           //drum
 
-          "drumitem1": "Merlot (0.7 l.)",
+          "drumitem1": "Мерлот (0,7 л.)",
            "drumsostojki1": "",
-           "drumcena1": "450 mkd.",
+           "drumcena1": "450 ден.",
 
-          "drumitem2": "Vranec (0.7 l.)",
+          "drumitem2": "Вранец (0,7 л.)",
            "drumsostojki2": "",
-           "drumcena2": "450 mkd.",
+           "drumcena2": "450 ден.",
 
-          "drumitem3": "Cabernet Sauvignon (0.7 l.)",
+          "drumitem3": "Каберне Совињон (0,7 л.)",
            "drumsostojki3": "",
-           "drumcena3": "450 mkd.",
+           "drumcena3": "450 ден.",
 
-          "drumitem4": "Sauvignon Blanco (0.2 l.)",
+          "drumitem4": "Совињон Бланко (0,2 л.)",
            "drumsostojki4": "",
-           "drumcena4": "450 mkd.",
+           "drumcena4": "450 ден.",
 
-          "drumitem5": "Smederevka",
+          "drumitem5": "Смедеревка",
            "drumsostojki5": "",
-           "drumcena5": "270 mkd.",
+           "drumcena5": "270 ден.",
 
 
           //gotveni
 
-          "gotveniitem1": "Veal stew",
+          "gotveniitem1": "Телешка чорба",
            "gotvenisostojki1": "",
-           "gotvenicena1": "140 mkd.",
+           "gotvenicena1": "140 ден.",
 
-          "gotveniitem2": "Chicken stew ",
+          "gotveniitem2": "Пилешка чорба",
            "gotvenisostojki2": "",
-           "gotvenicena2": "140 mkd.",
+           "gotvenicena2": "140 ден.",
 
-          "gotveniitem3": "Goulash",
+          "gotveniitem3": "Гулаш",
            "gotvenisostojki3": "",
-           "gotvenicena3": "180 mkd.",
+           "gotvenicena3": "180 ден.",
 
-          "gotveniitem4": "Village meat (1 kg.)",
+          "gotveniitem4": "Селско месо (1 кг.)",
            "gotvenisostojki4": "",
-           "gotvenicena4": "900 mkd.",
+           "gotvenicena4": "900 ден.",
 
-          "gotveniitem5": "Ribs in the oven (1 kg.)",
+          "gotveniitem5": "Ребро во фурна (1 кг.)",
            "gotvenisostojki5": "",
-           "gotvenicena5": "800 mkd.",
+           "gotvenicena5": "800 ден.",
 
 
           //pivo
 
-          "pivoitem1": "Skopsko (0.5 l.)",
+          "pivoitem1": "Скопско (0,5 л.)",
            "pivosostojki1": "",
-           "pivocena1": "90 mkd.",
+           "pivocena1": "90 ден.",
 
-          "pivoitem2": "Skopsko (0.33 l.)",
+          "pivoitem2": "Скопско (0,33 л.)",
            "pivosostojki2": "",
-           "pivocena2": "90 mkd.",
+           "pivocena2": "90 ден.",
 
-          "pivoitem3": "Zlaten dab (0.5 l.)",
+          "pivoitem3": "Златен даб (0,5 л.)",
            "pivosostojki3": "",
-           "pivocena3": "90 mkd.",
+           "pivocena3": "90 ден.",
 
-          "pivoitem4": "Zlaten dab (Tocheno)",
-           "pivosostojki4": "(0.33 l.)",
-           "pivocena4": "70 mkd.",
+          "pivoitem4": "Златен даб (Точено)",
+           "pivosostojki4": "(0,33 л.)",
+           "pivocena4": "70 ден.",
 
-          "pivoitem5": "Tuborg (0.33 l.)",
+          "pivoitem5": "Туборг (0,33 л.)",
            "pivosostojki5": "",
-           "pivocena5": "100 mkd.",
+           "pivocena5": "100 ден.",
 
-          "pivoitem6": "Tuborg (0.4 l.)",
+          "pivoitem6": "Туборг (0,4 л.)",
            "pivosostojki6": "",
-           "pivocena6": "90 mkd.",
+           "pivocena6": "90 ден.",
 
-          "pivoitem7": "Yelen (0.33 l.)",
+          "pivoitem7": "Јелен (0,33 л.)",
            "pivosostojki7": "",
-           "pivocena7": "90 mkd.",
+           "pivocena7": "90 ден.",
 
-          "pivoitem8": "Yelen (0.5 l.) ",
+          "pivoitem8": "Јелен (0,5 л.)",
            "pivosostojki8": "",
-           "pivocena8": "90 mkd.",
+           "pivocena8": "90 ден.",
 
-          "pivoitem9": "Heiniken (0.33 l.)",
+          "pivoitem9": "Хаиникен (0,33 л.)",
            "pivosostojki9": "",
-           "pivocena9": "120 mkd.",
+           "pivocena9": "120 ден.",
 
-          "pivoitem10": "Heiniken (0.4 l.)",
+          "pivoitem10": "Хаиникен (0,4 л.)",
            "pivosostojki10": "",
-           "pivocena10": "100 mkd.",
+           "pivocena10": "100 ден.",
 
           "pivoitem11": "",
            "pivosostojki11": "",
@@ -909,385 +910,385 @@ const item1El = document.querySelector('#item1');
 
           //predjadenje
 
-          "predjadenjeitem1": "Baked cheese (100 gr.)",
+          "predjadenjeitem1": "Похован кашкавал (100 гр.)",
            "predjadenjesostojki1": "",
-           "predjadenjecena1": "100 mkd.",
+           "predjadenjecena1": "100 ден.",
 
-          "predjadenjeitem2": "Baked zdenka",
+          "predjadenjeitem2": "Похована зденка",
            "predjadenjesostojki2": "",
-           "predjadenjecena2": "30 mkd.",
+           "predjadenjecena2": "30 ден.",
 
-          "predjadenjeitem3": "Fried mushrooms (200 gr.)",
+          "predjadenjeitem3": "Похована печурки (200 гр.)",
            "predjadenjesostojki3": "",
-           "predjadenjecena3": "150 mkd.",
+           "predjadenjecena3": "150 ден.",
 
-          "predjadenjeitem4": "Piroshka",
+          "predjadenjeitem4": "Пирошка",
            "predjadenjesostojki4": "",
-           "predjadenjecena4": "60 mkd.",
+           "predjadenjecena4": "60 ден.",
 
-          "predjadenjeitem5": "Fried zucchini",
+          "predjadenjeitem5": "Поховани тиквички",
            "predjadenjesostojki5": "",
-           "predjadenjecena5": "120 mkd.",
+           "predjadenjecena5": "120 ден.",
 
-          "predjadenjeitem6": "Fried stuffed pepper (1 pc.)",
+          "predjadenjeitem6": "Похована полнета пиперка (1 бр.)",
            "predjadenjesostojki6": "",
-           "predjadenjecena6": "70 mkd.",
+           "predjadenjecena6": "70 ден.",
 
-          "predjadenjeitem7": "Fried board (Small)",
+          "predjadenjeitem7": "Похована даска (Мала)",
            "predjadenjesostojki7": "",
-           "predjadenjecena7": "350 mkd.",
+           "predjadenjecena7": "350 ден.",
 
-          "predjadenjeitem8": "Fried board (Large)",
+          "predjadenjeitem8": "Похована даска (Голема)",
            "predjadenjesostojki8": "",
-           "predjadenjecena8": "700 mkd.",
+           "predjadenjecena8": "700 ден.",
 
-          "predjadenjeitem9": "Galia cold board",
-           "predjadenjesostojki9": "(sheep's cheese, parmesan, whipped cheese, prosciutto, smoked bacon, tea, kulen)",
-           "predjadenjecena9": "700 mkd.",
+          "predjadenjeitem9": "Ладна даска Галија",
+           "predjadenjesostojki9": "(овчи кашкавал, пармезан, биено сирење, пршут, пушена сланина, чајна, кулен)",
+           "predjadenjecena9": "700 ден.",
 
-          "predjadenjeitem10": "Ordever",
+          "predjadenjeitem10": "Ордевер",
            "predjadenjesostojki10": "",
-           "predjadenjecena10": "150 mkd.",
+           "predjadenjecena10": "150 ден.",
 
 
           //riba
 
-          "ribaitem1": "Trout (1 kg.)",
+          "ribaitem1": "Пастрамка (1 кг.)",
            "ribasostojki1": "",
-           "ribacena1": "800 mkd.",
+           "ribacena1": "800 ден.",
 
-          "ribaitem2": "Salmon (1 kg.)",
+          "ribaitem2": "Лосос ( 1 кг.)",
            "ribasostojki2": "",
-           "ribacena2": "800 mkd.",
+           "ribacena2": "800 ден.",
 
-          "ribaitem3": "Hake (1 kg.)",
+          "ribaitem3": "Ослич (1 кг.)",
            "ribasostojki3": "",
-           "ribacena3": "400 mkd.",
+           "ribacena3": "400 ден.",
 
 
           //salati
 
-          "salatiitem1": "Shopska",
+          "salatiitem1": "Шопска",
            "salatisostojki1": "",
-           "salaticena1": "140 mkd.",
+           "salaticena1": "140 ден.",
 
-          "salatiitem2": "Greece",
+          "salatiitem2": "Грчка",
            "salatisostojki2": "",
-           "salaticena2": "140 mkd.",
+           "salaticena2": "140 ден.",
 
-          "salatiitem3": "Vlashka",
+          "salatiitem3": "Влашка",
            "salatisostojki3": "",
-           "salaticena3": "160 mkd.",
+           "salaticena3": "160 ден.",
 
-          "salatiitem4": "Tarator",
+          "salatiitem4": "Таратор",
            "salatisostojki4": "",
-           "salaticena4": "140 mkd.",
+           "salaticena4": "140 ден.",
 
-          "salatiitem5": "Green salad",
+          "salatiitem5": "Зелена салата",
            "salatisostojki5": "",
-           "salaticena5": "100 mkd.",
+           "salaticena5": "100 ден.",
 
-          "salatiitem6": "Cabbage",
+          "salatiitem6": "Зелка",
            "salatisostojki6": "",
-           "salaticena6": "80 mkd.",
+           "salaticena6": "80 ден.",
 
-          "salatiitem7": "Lettuce",
+          "salatiitem7": "Марула",
            "salatisostojki7": "",
-           "salaticena7": "80 mkd.",
+           "salaticena7": "80 ден.",
 
-          "salatiitem8": "Cucumber",
+          "salatiitem8": "Краставица",
            "salatisostojki8": "",
-           "salaticena8": "80 mkd.",
+           "salaticena8": "80 ден.",
 
-          "salatiitem9": "Tomato",
+          "salatiitem9": "Патлиџан",
            "salatisostojki9": "",
-           "salaticena9": "80 mkd.",
+           "salaticena9": "80 ден.",
 
-          "salatiitem10": "Ovcharska",
+          "salatiitem10": "Овчарска",
            "salatisostojki10": "",
-           "salaticena10": "160 mkd.",
+           "salaticena10": "160 ден.",
 
-          "salatiitem11": "Mimosa",
+          "salatiitem11": "Мимоза",
            "salatisostojki11": "",
-           "salaticena11": "100 mkd.",
+           "salaticena11": "100 ден.",
 
-          "salatiitem12": "Tuna salad ",
+          "salatiitem12": "Туна салата",
            "salatisostojki12": "",
-           "salaticena12": "100 mkd.",
+           "salaticena12": "100 ден.",
 
-          "salatiitem13": "Potato salad",
+          "salatiitem13": "Компир салата",
            "salatisostojki13": "",
-           "salaticena13": "100 mkd.",
+           "salaticena13": "100 ден.",
 
-          "salatiitem14": "Caesar",
+          "salatiitem14": "Цезар",
            "salatisostojki14": "",
-           "salaticena14": "220 mkd.",
+           "salaticena14": "220 ден.",
 
           //skara
 
-          "skaraitem1": "Galija burger (280 gr.)",
-           "skarasostojki1": "(minced meat, cheese, bacon, kaymak)",
-           "skaracena1": "220 mkd.",
+          "skaraitem1": "Плескавица Галија (280 гр.)",
+           "skarasostojki1": "(мелено месо, кашкавал, сланина, кајмак)",
+           "skaracena1": "220 ден.",
 
-          "skaraitem2": "Vinichanka (280 gr.)",
-           "skarasostojki2": "(minced meat, cheese, chopped meat, mushrooms)",
-           "skaracena2": "200 mkd.",
+          "skaraitem2": "Виничанка (280 гр.)",
+           "skarasostojki2": "(мелено месо, кашкавал, сецкано месо, печурки)",
+           "skaracena2": "200 ден.",
 
-          "skaraitem3": "Greek burger",
-           "skarasostojki3": "(minced meat, cheese)",
-           "skaracena3": "190 mkd.",
+          "skaraitem3": "Грчка плескавица",
+           "skarasostojki3": "(мелено месо, кашкавал)",
+           "skaracena3": "190 ден.",
 
-          "skaraitem4": "Lovechka (280 gr.)",
-           "skarasostojki4": "(minced meat, cheese, cheese)",
-           "skaracena4": "200 mkd.",
+          "skaraitem4": "Ловечка (280 гр.)",
+           "skarasostojki4": "(мелено месо, кашкавал, сирење)",
+           "skaracena4": "200 ден.",
 
-          "skaraitem5": "Lovechka spicy (280 g)",
-           "skarasostojki5": "(minced meat, cheese)",
-           "skaracena5": "200 mkd.",
+          "skaraitem5": "Ловечка лута (280 гр.)",
+           "skarasostojki5": "(мелено месо, кашкавал)",
+           "skaracena5": "200 ден.",
 
-          "skaraitem6": "Burger (200 gr.)",
+          "skaraitem6": "Плескавица (200 гр.)",
            "skarasostojki6": "",
-           "skaracena6": "140 mkd.",
+           "skaracena6": "140 ден.",
 
-          "skaraitem7": "Kebap (25 gr.)",
+          "skaraitem7": "Ќебап (25 гр.)",
            "skarasostojki7": "",
-           "skaracena7": "15 mkd.",
+           "skaracena7": "15 ден.",
 
-          "skaraitem8": "Veshalica (200 gr.)",
+          "skaraitem8": "Вешалица (200 гр.) ",
            "skarasostojki8": "",
-           "skaracena8": "160 mkd.",
+           "skaracena8": "160 ден.",
 
-          "skaraitem9": "Diplomatic veshalica",
+          "skaraitem9": "Дипломатска вешалица",
            "skarasostojki9": "",
-           "skaracena9": "200 mkd.",
+           "skaracena9": "200 ден.",
 
-          "skaraitem10": "Chicken tenderloin",
+          "skaraitem10": "Увијач пилешки",
            "skarasostojki10": "",
-           "skaracena10": "180 mkd.",
+           "skaracena10": "180 ден.",
 
-          "skaraitem11": "Kremenadla",
+          "skaraitem11": "Кременадла",
            "skarasostojki11": "",
-           "skaracena11": "160 mkd.",
+           "skaracena11": "160 ден.",
 
-          "skaraitem12": "Raznic",
+          "skaraitem12": "Ражниќ",
            "skarasostojki12": "",
-           "skaracena12": "160 mkd.",
+           "skaracena12": "160 ден.",
 
-          "skaraitem13": "Paflak (1 kg.)",
+          "skaraitem13": "Пафлак (1 кг.)",
            "skarasostojki13": "",
-           "skaracena13": "700 mkd.",
+           "skaracena13": "700 ден.",
 
-          "skaraitem14": "Neck (1 kg.)",
+          "skaraitem14": "Врат (1 кг.)",
            "skarasostojki14": "",
-           "skaracena14": "700 mkd.",
+           "skaracena14": "700 ден.",
 
-          "skaraitem15": "Biftek (1 kg.)",
+          "skaraitem15": "Бифтек (1 кг.)",
            "skarasostojki15": "",
-           "skaracena15": "900 mkd.",
+           "skaracena15": "900 ден.",
 
-          "skaraitem16": "Homemade sausage (Thin)",
+          "skaraitem16": "Домашен кобас (Тенок)",
            "skarasostojki16": "",
-           "skaracena16": "80 mkd.",
+           "skaracena16": "80 ден.",
 
-          "skaraitem17": "Homemade sausage (Thick) ",
+          "skaraitem17": "Домашен колвас (Дебел)",
            "skarasostojki17": "",
-           "skaracena17": "100 mkd.",
+           "skaracena17": "100 ден.",
 
-          "skaraitem18": "King's meat",
+          "skaraitem18": "Царско месо",
            "skarasostojki18": "",
-           "skaracena18": "280 mkd.",
+           "skaracena18": "280 ден.",
 
-          "skaraitem19": "Steak",
+          "skaraitem19": "Стек",
            "skarasostojki19": "",
-           "skaracena19": "150 mkd.",
+           "skaracena19": "150 ден.",
 
-          "skaraitem20": "Diplomatic steak ",
+          "skaraitem20": "Дипломатски стек",
            "skarasostojki20": "",
-           "skaracena20": "180 mkd.",
+           "skaracena20": "180 ден.",
 
-          "skaraitem21": "Chicken leg without bone",
+          "skaraitem21": "Копан без коска",
            "skarasostojki21": "",
-           "skaracena21": "150 mkd.",
+           "skaracena21": "150 ден.",
 
 
           //tikves
 
-          "tikvesitem1": "Alexandria White (0.7 l.) ",
+          "tikvesitem1": "Александрија Бела (0,7 л.)",
            "tikvessostojki1": "",
-           "tikvescena1": "500 mkd.",
+           "tikvescena1": "500 ден.",
 
-          "tikvesitem2": "Alexandria Red (0.7 l.)",
+          "tikvesitem2": "Александрија Црвена (0,7 л.)",
            "tikvessostojki2": "",
-           "tikvescena2": "500 mkd.",
+           "tikvescena2": "500 ден.",
 
-          "tikvesitem3": "Alexandria Rose (0.7 l.)",
+          "tikvesitem3": "Александрија Розе (0,7 л.)",
            "tikvessostojki3": "",
-           "tikvescena3": "500 mkd.",
+           "tikvescena3": "500 ден.",
 
-          "tikvesitem4": "T'ga za jug (0.7 l.)",
+          "tikvesitem4": "Т'га за југ (0,7 л.)",
            "tikvessostojki4": "",
-           "tikvescena4": "500 mkd.",
+           "tikvescena4": "500 ден.",
 
-          "tikvesitem5": "Traminets (0.7 l.)",
+          "tikvesitem5": "Траминец (0,7 л.)",
            "tikvessostojki5": "",
-           "tikvescena5": "500 mkd.",
+           "tikvescena5": "500 ден.",
 
-          "tikvesitem6": "Temjanika (0.7 l.)",
+          "tikvesitem6": "Темјаника (0,7 л.)",
            "tikvessostojki6": "",
-           "tikvescena6": "500 mkd.",
+           "tikvescena6": "500 ден.",
 
 
           //vino
 
-          "vinoitem1": "Smederevka (1 liter)",
+          "vinoitem1": "Смедеревка (1 л.)",
            "vinosostojki1": "",
-           "vinocena1": "280 mkd.",
+           "vinocena1": "280 ден.",
 
-          "vinoitem2": "Kavadarka (1 liter)",
+          "vinoitem2": "Кавадарка (1 л.)",
            "vinosostojki2": "",
-           "vinocena2": "280 mkd.",
+           "vinocena2": "280 ден.",
 
-          "vinoitem3": "Rosé (1 l.)",
+          "vinoitem3": "Розе (1 л.) ",
            "vinosostojki3": "",
-           "vinocena3": "280 mkd.",
+           "vinocena3": "280 ден.",
 
-          "vinoitem4": "Vitach (1 l.)",
+          "vinoitem4": "Витач (1 л.)",
            "vinosostojki4": "",
-           "vinocena4": "280 mkd.",
+           "vinocena4": "280 ден.",
 
-          "vinoitem5": "Vranec (1 liter)",
+          "vinoitem5": "Вранец (1 л.)",
            "vinosostojki5": "",
-           "vinocena5": "280 mkd.",
+           "vinocena5": "280 ден.",
 
-          "vinoitem6": "Smederevka (0.5 l.)",
+          "vinoitem6": "Смедеревка (0,5 л.)",
            "vinosostojki6": "",
-           "vinocena6": "150 mkd.",
+           "vinocena6": "150 ден.",
 
-          "vinoitem7": "Kavadarka (0.5 l.)",
+          "vinoitem7": "Кавадарка (0,5 л.)",
            "vinosostojki7": "",
-           "vinocena7": "150 mkd.",
+           "vinocena7": "150 ден.",
 
-          "vinoitem8": "Rosé (0.5 l.)",
+          "vinoitem8": "Розе (0,5 л.)",
            "vinosostojki8": "",
-           "vinocena8": "150 mkd.",
+           "vinocena8": "150 ден.",
 
-          "vinoitem9": "Vitach (0.5 l.)",
+          "vinoitem9": "Витач (0,5 л.)",
            "vinosostojki9": "",
-           "vinocena9": "150 mkd.",
+           "vinocena9": "150 ден.",
 
-          "vinoitem10": "Vranec (0.5 l.)",
+          "vinoitem10": "Вранец (0,5 л.)",
            "vinosostojki10": "",
-           "vinocena10": "150 mkd.",
+           "vinocena10": "150 ден.",
 
-          "vinoitem11": "Alexandria White (0.2 l.)",
+          "vinoitem11": "Александрија Бела (0,2 л.)",
            "vinosostojki11": "",
-           "vinocena11": "150 mkd.",
+           "vinocena11": "150 ден.",
 
-          "vinoitem12": "Alexandria Red (0.2 l.)",
+          "vinoitem12": "Александрија Црвена (0,2 л.) ",
            "vinosostojki12": "",
-           "vinocena12": "150 mkd.",
+           "vinocena12": "150 ден.",
           
-          "vinoitem13": "Alexandria Rose (0.2 l.)",
+          "vinoitem13": "Александрија Розе (0,2 л.)",
            "vinosostojki13": "",
-           "vinocena13": "150 mkd.",
+           "vinocena13": "150 ден.",
           
-          "vinoitem14": "T'ga za jug (0.2 l.)",
+          "vinoitem14": "Т'га за југ (0,2 л.)",
            "vinosostojki14": "",
-           "vinocena14": "150 mkd.",
+           "vinocena14": "150 ден.",
           
-          "vinoitem15": "Traminets (0.2 l.)",
+          "vinoitem15": "Траминец (0,2 л.)",
            "vinosostojki15": "",
-           "vinocena15": "150 mkd.",
+           "vinocena15": "150 ден.",
           
-          "vinoitem16": "Temjanika (0.2 l.)",
+          "vinoitem16": "Темјаника (0,2 л.)",
            "vinosostojki16": "",
-           "vinocena16": "150 mkd.",
+           "vinocena16": "150 ден.",
           
-          "vinoitem17": "Tikvesh Special Selection",
+          "vinoitem17": "Тиквеш Спешл Селекшн",
            "vinosostojki17": "",
-           "vinocena17": "800 mkd.",
+           "vinocena17": "800 ден.",
           
-          "vinoitem18": "Tikvesh Kuve",
+          "vinoitem18": "Тиквеш Куве",
            "vinosostojki18": "",
-           "vinocena18": "800 mkd.",
+           "vinocena18": "800 ден.",
           
           //zestoko
 
-          "zestokoitem1": "Yellow rakija (50 ml.)",
+          "zestokoitem1": "Жолта (50 мл.)",
            "zestokosostojki1": "",
-           "zestokocena1": "70 mkd.",
+           "zestokocena1": "70 ден.",
 
-          "zestokoitem2": "White rakija (50 ml.)",
+          "zestokoitem2": "Бела (50 мл.)",
            "zestokosostojki2": "",
-           "zestokocena2": "70 mkd.",
+           "zestokocena2": "70 ден.",
 
-          "zestokoitem3": "St. Tryfun rakija (50 ml.)",
+          "zestokoitem3": "Св.Трифун (50 мл.)",
            "zestokosostojki3": "",
-           "zestokocena3": "100 mkd.",
+           "zestokocena3": "100 ден.",
 
-          "zestokoitem4": "Cognac (50 ml.)",
+          "zestokoitem4": "Коњак (50 мл.)",
            "zestokosostojki4": "",
-           "zestokocena4": "70 mkd.",
+           "zestokocena4": "70 ден.",
 
-          "zestokoitem5": "Vodka Vigor (50 ml.)",
+          "zestokoitem5": "Водка Вигор (50 мл.)",
            "zestokosostojki5": "",
-           "zestokocena5": "70 mkd.",
+           "zestokocena5": "70 ден.",
 
-          "zestokoitem6": "Smirnoff vodka (50 ml.)",
+          "zestokoitem6": "Водка Смирноф (50 мл.)",
            "zestokosostojki6": "",
-           "zestokocena6": "100 mkd.",
+           "zestokocena6": "100 ден.",
 
-          "zestokoitem7": "Vodka Finland (50 ml.)",
+          "zestokoitem7": "Вотка Финландија (50 мл.)",
            "zestokosostojki7": "",
-           "zestokocena7": "100 mkd.",
+           "zestokocena7": "100 ден.",
 
-          "zestokoitem8": "Ouzo Tsantali (50 ml.)",
+          "zestokoitem8": "Узо Тсантали (50 мл.)",
            "zestokosostojki8": "",
-           "zestokocena8": "60 mkd.",
+           "zestokocena8": "60 ден.",
 
-          "zestokoitem9": "Ouzo Plomari (50 ml.)",
+          "zestokoitem9": "Узо Пломари (50 мл.)",
            "zestokosostojki9": "",
-           "zestokocena9": "80 mkd.",
+           "zestokocena9": "80 ден.",
 
-          "zestokoitem10": "Gin (50 ml.)",
+          "zestokoitem10": "Џин (50 мл.)",
            "zestokosostojki10": "",
-           "zestokocena10": "70 mkd.",
+           "zestokocena10": "70 ден.",
 
-          "zestokoitem11": "Martini (50 ml.)",
+          "zestokoitem11": "Мартини (50 мл.)",
            "zestokosostojki11": "",
-           "zestokocena11": "80 mkd.",
+           "zestokocena11": "80 ден.",
 
-          "zestokoitem12": "Stock (50 ml.)",
+          "zestokoitem12": "Шток (50 мл.)",
            "zestokosostojki12": "",
-           "zestokocena12": "80 mkd.",
+           "zestokocena12": "80 ден.",
 
-          "zestokoitem13": "Ballantine's (50 ml.)",
+          "zestokoitem13": "Балантајн (50 мл.)",
            "zestokosostojki13": "",
-           "zestokocena13": "150 mkd.",
+           "zestokocena13": "150 ден.",
 
-          "zestokoitem14": "Jamieson (50 ml.)",
+          "zestokoitem14": "Џејмисон (50 мл.)",
            "zestokosostojki14": "",
-           "zestokocena14": "150 mkd.",
+           "zestokocena14": "150 ден.",
 
-          "zestokoitem15": "Jack Daniels (50 ml.)",
+          "zestokoitem15": "Џек Даниелс (50 мл.)",
            "zestokosostojki15": "",
-           "zestokocena15": "180 mkd.",
+           "zestokocena15": "180 ден.",
 
-          "zestokoitem16": "Johnnie Walker (50 ml.)",
+          "zestokoitem16": "Џони Вокер (50 мл.)",
            "zestokosostojki16": "",
-           "zestokocena16": "150 mkd.",
+           "zestokocena16": "150 ден.",
 
-          "zestokoitem17": "Rum (50 ml.)",
+          "zestokoitem17": "Рум (50 мл.)",
            "zestokosostojki17": "",
-           "zestokocena17": "320 den./340 den.",
+           "zestokocena17": "70 ден.",
 
-          "zestokoitem18": "Jägermeister (50 ml.)",
+          "zestokoitem18": "Јегермаистер (50 мл.)",
            "zestokosostojki18": "",
-           "zestokocena18": "120 mkd.",
+           "zestokocena18": "120 ден.",
 
-          "zestokoitem19": "Mastic (50 ml.)",
+          "zestokoitem19": "Мастика (50 мл.)",
            "zestokosostojki19": "",
-           "zestokocena19": "70 mkd.",
+           "zestokocena19": "70 ден.",
 
       }
 
