@@ -1,0 +1,44 @@
+.pb-5{
+    background-image: url(Sliki/background.jpg);
+    align-items: center;
+}
+.fa-square-phone{
+    color: black;
+}
+.col{
+    width: 23rem;
+}
+.app{
+    max-width: 600px;
+}
+.text-overlay {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+  .text-overlay{
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 50px;
+    -webkit-text-stroke: 1px black;
+    color: rgb(235, 220, 84);
+    text-shadow:
+    3px 3px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  }
+  .text-overlay h1{
+    font-size: 45px;
+  }
+  .py-2{
+    background-color: #a6a2a2;
+    color: #75662e;
+    font-weight: 700;
+  }
+  .title9{
+    font-size: 35px;
+  }
