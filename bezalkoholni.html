@@ -4,11 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <div class="app mx-auto">
         <div class="container pb-5 mx-auto">
+            <div class="text-center">
+                <img src="Sliki/kafe.webp" class="img-fluid shadow text-center">
+            </div>
+            <br>
+            <div>
+                <a href="drinksPage.html">
+                <button type="button" class="mb-4 back btn btn-warning shadow fw-bold px-3 mx-auto">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-square-fill" viewBox="0 0 16 16">
+                        <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm10.5 10V4a.5.5 0 0 0-.832-.374l-4.5 4a.5.5 0 0 0 0 .748l4.5 4A.5.5 0 0 0 10.5 12z"/>
+                    </svg>
+                  <i class="bi bi-caret-left-square-fill"> Назад кон мени </i>
+                </button>
+            </a>
+            <br>
+            <br>
+    <div class="langWrap">
+        <a href="#" language='MK' class="active"><img src="macedonia.png" alt="" style="width: 50px;"></a>
+        <a href="#" language='english'><img src="english-removebg-preview.png" alt="" style="width: 52px;"></a>
+    </div>
             <div class="card mb-4 p-4 shadow mx-auto">
                 <div class="row">
                     <div class="col-8">
@@ -213,60 +233,46 @@
         const langEl = document.querySelector('.langWrap');
 		const link = document.querySelectorAll('a');
 
-	const Bezalkoholniitem1El = document.querySelector('.Bezalkoholniitem1');
-	const Bezalkoholnisostojki1El = document.querySelector('.Bezalkoholnisostojki1');
+		const Bezalkoholniitem1El = document.querySelector('.Bezalkoholniitem1');
         const Bezalkoholnicena1El = document.querySelector('.Bezalkoholnicena1');
 
         const Bezalkoholniitem2El = document.querySelector('.Bezalkoholniitem2');
-	const Bezalkoholnisostojki2El = document.querySelector('.Bezalkoholnisostojki2');
         const Bezalkoholnicena2El = document.querySelector('.Bezalkoholnicena2');
 
         const Bezalkoholniitem3El = document.querySelector('.Bezalkoholniitem3');
-	const Bezalkoholnisostojki3El = document.querySelector('.Bezalkoholnisostojki3');
         const Bezalkoholnicena3El = document.querySelector('.Bezalkoholnicena3');
 
         const Bezalkoholniitem4El = document.querySelector('.Bezalkoholniitem4');
-	const Bezalkoholnisostojki4El = document.querySelector('.Bezalkoholnisostojki4');
         const Bezalkoholnicena4El = document.querySelector('.Bezalkoholnicena4');
 
         const Bezalkoholniitem5El = document.querySelector('.Bezalkoholniitem5');
-	const Bezalkoholnisostojki5El = document.querySelector('.Bezalkoholnisostojki5');
         const Bezalkoholnicena5El = document.querySelector('.Bezalkoholnicena5');
 
         const Bezalkoholniitem6El = document.querySelector('.Bezalkoholniitem6');
-	const Bezalkoholnisostojki6El = document.querySelector('.Bezalkoholnisostojki6');
         const Bezalkoholnicena6El = document.querySelector('.Bezalkoholnicena6');
 
         const Bezalkoholniitem7El = document.querySelector('.Bezalkoholniitem7');
-	const Bezalkoholnisostojki7El = document.querySelector('.Bezalkoholnisostojki7');
         const Bezalkoholnicena7El = document.querySelector('.Bezalkoholnicena7');
 
         const Bezalkoholniitem8El = document.querySelector('.Bezalkoholniitem8');
-	const Bezalkoholnisostojki8El = document.querySelector('.Bezalkoholnisostojki8');
         const Bezalkoholnicena8El = document.querySelector('.Bezalkoholnicena8');
 
         const Bezalkoholniitem9El = document.querySelector('.Bezalkoholniitem9');
-	const Bezalkoholnisostojki9El = document.querySelector('.Bezalkoholnisostojki9');
         const Bezalkoholnicena9El = document.querySelector('.Bezalkoholnicena9');
 
         const Bezalkoholniitem10El = document.querySelector('.Bezalkoholniitem10');
-	const Bezalkoholnisostojki10El = document.querySelector('.Bezalkoholnisostojki10');
         const Bezalkoholnicena10El = document.querySelector('.Bezalkoholnicena10');
 
         const Bezalkoholniitem11El = document.querySelector('.Bezalkoholniitem11');
-	const Bezalkoholnisostojki11El = document.querySelector('.Bezalkoholnisostojki11');
         const Bezalkoholnicena11El = document.querySelector('.Bezalkoholnicena11');
 
         const Bezalkoholniitem12El = document.querySelector('.Bezalkoholniitem12');
-	const Bezalkoholnisostojki12El = document.querySelector('.Bezalkoholnisostojki12');
         const Bezalkoholnicena12El = document.querySelector('.Bezalkoholnicena12');
 
         const Bezalkoholniitem13El = document.querySelector('.Bezalkoholniitem13');
-	const Bezalkoholnisostojki13El = document.querySelector('.Bezalkoholnisostojki13');
         const Bezalkoholnicena13El = document.querySelector('.Bezalkoholnicena13');
 
         const Bezalkoholniitem14El = document.querySelector('.Bezalkoholniitem14');
-	const Bezalkoholnisostojki14El = document.querySelector('.Bezalkoholnisostojki14');
         const Bezalkoholnicena14El = document.querySelector('.Bezalkoholnicena14');
 
 
@@ -277,60 +283,46 @@
 
 				const attr = el.getAttribute('language');
 
-		Bezalkoholniitem1El.textContent = data[attr].Bezalkoholniitem1;
-		Bezalkoholnisostojki1El.textContent = data[attr].Bezalkoholnisostojki1;
+				Bezalkoholniitem1El.textContent = data[attr].Bezalkoholniitem1;
                 Bezalkoholnicena1El.textContent = data[attr].Bezalkoholnicena1;
 
                 Bezalkoholniitem2El.textContent = data[attr].Bezalkoholniitem2;
-		Bezalkoholnisostojki2El.textContent = data[attr].Bezalkoholnisostojki2;
                 Bezalkoholnicena2El.textContent = data[attr].Bezalkoholnicena2;
 
                 Bezalkoholniitem3El.textContent = data[attr].Bezalkoholniitem3;
-		Bezalkoholnisostojki3El.textContent = data[attr].Bezalkoholnisostojki3;
                 Bezalkoholnicena3El.textContent = data[attr].Bezalkoholnicena3;
 
                 Bezalkoholniitem4El.textContent = data[attr].Bezalkoholniitem4;
-		Bezalkoholnisostojki4El.textContent = data[attr].Bezalkoholnisostojki4;
                 Bezalkoholnicena4El.textContent = data[attr].Bezalkoholnicena4;
 
                 Bezalkoholniitem5El.textContent = data[attr].Bezalkoholniitem5;
-		Bezalkoholnisostojki5El.textContent = data[attr].Bezalkoholnisostojki5;
                 Bezalkoholnicena5El.textContent = data[attr].Bezalkoholnicena5;
 
                 Bezalkoholniitem6El.textContent = data[attr].Bezalkoholniitem6;
-		Bezalkoholnisostojki6El.textContent = data[attr].Bezalkoholnisostojki6;
                 Bezalkoholnicena6El.textContent = data[attr].Bezalkoholnicena6;
 
                 Bezalkoholniitem7El.textContent = data[attr].Bezalkoholniitem7;
-		Bezalkoholnisostojki7El.textContent = data[attr].Bezalkoholnisostojki7;
                 Bezalkoholnicena7El.textContent = data[attr].Bezalkoholnicena7;
 
                 Bezalkoholniitem8El.textContent = data[attr].Bezalkoholniitem8;
-		Bezalkoholnisostojki8El.textContent = data[attr].Bezalkoholnisostojki8;
                 Bezalkoholnicena8El.textContent = data[attr].Bezalkoholnicena8;
 
                 Bezalkoholniitem9El.textContent = data[attr].Bezalkoholniitem9;
-		Bezalkoholnisostojki9El.textContent = data[attr].Bezalkoholnisostojki9;
                 Bezalkoholnicena9El.textContent = data[attr].Bezalkoholnicena9;
 
                 Bezalkoholniitem10El.textContent = data[attr].Bezalkoholniitem10;
-		Bezalkoholnisostojki10El.textContent = data[attr].Bezalkoholnisostojki10;
                 Bezalkoholnicena10El.textContent = data[attr].Bezalkoholnicena10;
 
                 Bezalkoholniitem11El.textContent = data[attr].Bezalkoholniitem11;
-		Bezalkoholnisostojki11El.textContent = data[attr].Bezalkoholnisostojki11;
                 Bezalkoholnicena11El.textContent = data[attr].Bezalkoholnicena11;
 
                 Bezalkoholniitem12El.textContent = data[attr].Bezalkoholniitem12;
-		Bezalkoholnisostojki12El.textContent = data[attr].Bezalkoholnisostojki12;
                 Bezalkoholnicena12El.textContent = data[attr].Bezalkoholnicena12;
 
                 Bezalkoholniitem13El.textContent = data[attr].Bezalkoholniitem13;
-		Bezalkoholnisostojki13El.textContent = data[attr].Bezalkoholnisostojki13;
                 Bezalkoholnicena13El.textContent = data[attr].Bezalkoholnicena13;
 
                 Bezalkoholniitem14El.textContent = data[attr].Bezalkoholniitem14;
-		Bezalkoholnisostojki14El.textContent = data[attr].Bezalkoholnisostojki14;
                 Bezalkoholnicena14El.textContent = data[attr].Bezalkoholnicena14;
 			});
 		});
@@ -338,121 +330,91 @@
 		var data = {
 			  "english": 
 			  {
-                "Bezalkoholniitem1": "Coca Cola (0.25 l.) ",
-           "Bezalkoholnisostojki1": "",
-           "Bezalkoholnicena1": "70 ден.",
+                "Bezalkoholniitem1": "",
+                "Bezalkoholnicena1": "",
 
-           "Bezalkoholniitem2": "Fanta (0.25 l.)",
-           "Bezalkoholnisostojki2": "",
-           "Bezalkoholnicena2": "70 ден.",
+                "Bezalkoholniitem2": "",
+                "Bezalkoholnicena2": "",
 
-          "Bezalkoholniitem3": "Sprite (0.25 l.)",
-           "Bezalkoholnisostojki3": "",
-           "Bezalkoholnicena3": "70 ден.",
+                "Bezalkoholniitem3": "",
+                "Bezalkoholnicena3": "",
 
-          "Bezalkoholniitem4": "Schweppes (0.25 l.)",
-           "Bezalkoholnisostojki4": "",
-           "Bezalkoholnicena4": "70 ден..",
+                "Bezalkoholniitem4": "",
+                "Bezalkoholnicena4": "",
 
-          "Bezalkoholniitem5": "Tonic (0.25 l.)",
-           "Bezalkoholnisostojki5": "",
-           "Bezalkoholnicena5": "70 ден.",
+                "Bezalkoholniitem5": "",
+                "Bezalkoholnicena5": "",
 
-          "Bezalkoholniitem6": "Pepsi (0.25 l.) ",
-           "Bezalkoholnisostojki6": "",
-           "Bezalkoholnicena6": "70 ден.",
+                "Bezalkoholniitem6": "",
+                "Bezalkoholnicena6": "",
 
-          "Bezalkoholniitem7": "Gazosa (0.25 l.)",
-           "Bezalkoholnisostojki7": "",
-           "Bezalkoholnicena7": "70 mkd.",
+                "Bezalkoholniitem7": "",
+                "Bezalkoholnicena7": "",
 
-          "Bezalkoholniitem8": "Bravo (Juice)",
-           "Bezalkoholnisostojki8": "(0.25 l.)",
-           "Bezalkoholnicena8": "70 mkd.",
+                "Bezalkoholniitem8": "",
+                "Bezalkoholnicena8": "",
 
-          "Bezalkoholniitem9": "Bravo (Iced tea)",
-           "Bezalkoholnisostojki9": "(0.33 l.)",
-           "Bezalkoholnicena9": "70 mkd.",
+                "Bezalkoholniitem9": "",
+                "Bezalkoholnicena9": "",
 
-          "Bezalkoholniitem10": "Rosa (Water)",
-           "Bezalkoholnisostojki10": "(0.25 l.)",
-           "Bezalkoholnicena10": "50 mkd.",
+                "Bezalkoholniitem10": "",
+                "Bezalkoholnicena10": "",
 
-          "Bezalkoholniitem11": "Visiana (Water)",
-           "Bezalkoholnisostojki11": "(0.7 l.)",
-           "Bezalkoholnicena11": "70 mkd.",
+                "Bezalkoholniitem11": "",
+                "Bezalkoholnicena11": "",
 
-          "Bezalkoholniitem12": "Visiana (Sparkling water)",
-           "Bezalkoholnisostojki12": "(0.7 l.)",
-           "Bezalkoholnicena12": "70 mkd.",
+                "Bezalkoholniitem12": "",
+                "Bezalkoholnicena12": "",
 
-          "Bezalkoholniitem13": "Pelisterka (Carbonated)",
-           "Bezalkoholnisostojki13": "(0.25 l.)",
-           "Bezalkoholnicena13": "50 mkd.",
+                "Bezalkoholniitem13": "",
+                "Bezalkoholnicena13": "",
 
-          "Bezalkoholniitem14": "Pelisterka (Carbonated)",
-           "Bezalkoholnisostojki14": "(1 l.)",
-           "Bezalkoholnicena14": "80 mkd.",
+                "Bezalkoholniitem14": "",
+                "Bezalkoholnicena14": "",
 			  },
 			  "MK": 
 			  {
-               
-           "Bezalkoholniitem1": "Кока кола (0,25 л.)",
-           "Bezalkoholnisostojki1": "",
-           "Bezalkoholnicena1": "70 ден.",
+                "Bezalkoholniitem1": "",
+                "Bezalkoholnicena1": "",
 
-           "Bezalkoholniitem2": "Фанта (0,25 л.)",
-           "Bezalkoholnisostojki2": "",
-           "Bezalkoholnicena2": "70 ден.",
+                "Bezalkoholniitem2": "",
+                "Bezalkoholnicena2": "",
 
-          "Bezalkoholniitem3": "Спрајт (0,25 л.)",
-           "Bezalkoholnisostojki3": "",
-           "Bezalkoholnicena3": "70 ден.",
+                "Bezalkoholniitem3": "",
+                "Bezalkoholnicena3": "",
 
-          "Bezalkoholniitem4": "Швепс (0,25 л.)",
-           "Bezalkoholnisostojki4": "",
-           "Bezalkoholnicena4": "70 ден..",
+                "Bezalkoholniitem4": "",
+                "Bezalkoholnicena4": "",
 
-          "Bezalkoholniitem5": "Тоник (0,25 л.)",
-           "Bezalkoholnisostojki5": "",
-           "Bezalkoholnicena5": "70 ден.",
+                "Bezalkoholniitem5": "",
+                "Bezalkoholnicena5": "",
 
-          "Bezalkoholniitem6": "Пепси (0,25 л.)",
-           "Bezalkoholnisostojki6": "",
-           "Bezalkoholnicena6": "70 ден.",
+                "Bezalkoholniitem6": "",
+                "Bezalkoholnicena6": "",
 
-          "Bezalkoholniitem7": "Газоза (0,25 л.)",
-           "Bezalkoholnisostojki7": "",
-           "Bezalkoholnicena7": "70 ден.",
+                "Bezalkoholniitem7": "",
+                "Bezalkoholnicena7": "",
 
-          "Bezalkoholniitem8": "Браво (Негазиран)",
-           "Bezalkoholnisostojki8": "(0,25 л.)",
-           "Bezalkoholnicena8": "70 ден.",
+                "Bezalkoholniitem8": "",
+                "Bezalkoholnicena8": "",
 
-          "Bezalkoholniitem9": "Браво (Леден чај)",
-           "Bezalkoholnisostojki9": "(0,33 л.)",
-           "Bezalkoholnicena9": "70 ден",
+                "Bezalkoholniitem9": "",
+                "Bezalkoholnicena9": "",
 
-          "Bezalkoholniitem10": "Роса (Негазирана вода)",
-           "Bezalkoholnisostojki10": "(0,25 л.)",
-           "Bezalkoholnicena10": "50 ден.",
+                "Bezalkoholniitem10": "",
+                "Bezalkoholnicena10": "",
 
-          "Bezalkoholniitem11": "Визиана (Негазирана вода)",
-           "Bezalkoholnisostojki11": "(0,7 л.)",
-           "Bezalkoholnicena11": "70 ден.",
+                "Bezalkoholniitem11": "",
+                "Bezalkoholnicena11": "",
 
-          "Bezalkoholniitem12": "Визиана (Газирана вода)",
-           "Bezalkoholnisostojki12": "(0,7 л.)",
-           "Bezalkoholnicena12": "70 ден.",
+                "Bezalkoholniitem12": "",
+                "Bezalkoholnicena12": "",
 
-          "Bezalkoholniitem13": "Пелистерка (Газирана)",
-           "Bezalkoholnisostojki13": "(0,25 л.)",
-           "Bezalkoholnicena13": "50 ден.",
+                "Bezalkoholniitem13": "",
+                "Bezalkoholnicena13": "",
 
-          "Bezalkoholniitem14": "Пелистерка (Газирана)",
-           "Bezalkoholnisostojki14": "(1 л.)",
-           "Bezalkoholnicena14": "80 ден.",
-
+                "Bezalkoholniitem14": "",
+                "Bezalkoholnicena14": "",
 			}
         }
     </script>
